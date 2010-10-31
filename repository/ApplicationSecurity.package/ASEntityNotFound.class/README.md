@@ -1,0 +1,1 @@
+Lanzada cuando el usuario ingresado en el acceso al sistema no existe en el repositorio

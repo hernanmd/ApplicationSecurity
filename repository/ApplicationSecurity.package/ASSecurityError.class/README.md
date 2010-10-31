@@ -1,0 +1,1 @@
+Superclase que agrupa los errores comunes de seguridad de aplicacion

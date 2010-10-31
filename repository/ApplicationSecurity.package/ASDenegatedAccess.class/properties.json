@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "hfm 3/9/2008 13:25",
+	"super" : "ASSecurityError",
+	"category" : "ApplicationSecurity-Exceptions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ASDenegatedAccess",
+	"type" : "normal"
+}

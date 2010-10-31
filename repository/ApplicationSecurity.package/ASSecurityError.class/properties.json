@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "hfm 3/9/2008 13:21",
+	"super" : "Error",
+	"category" : "ApplicationSecurity-Exceptions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ASSecurityError",
+	"type" : "normal"
+}

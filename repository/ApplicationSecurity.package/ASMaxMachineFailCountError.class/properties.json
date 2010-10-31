@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ASSecurityError",
+	"category" : "ApplicationSecurity-Exceptions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ASMaxMachineFailCountError",
+	"type" : "normal"
+}
