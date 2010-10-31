@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "hfm 11/6/2008 01:17",
+	"super" : "ASNamedEntity",
+	"category" : "ApplicationSecurity-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"repository",
+		"encryptionAlgo",
+		"maxUsernameCharacters",
+		"maxPasswordCharacters",
+		"allowedUsernameCharacters",
+		"allowedPasswordCharacters",
+		"passwordExpirationCount",
+		"allowedMachines",
+		"legalMachines"
+	],
+	"name" : "ASValidationSettings",
+	"type" : "normal"
+}
