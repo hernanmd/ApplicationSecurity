@@ -1,0 +1,3 @@
+CARole = Caicyt Application Role, no quise poner Role porque es un nombre muy generico candidato a tener conflicto en el futuro. Un Rol es un objeto que permite agrupar cualquier combinacion de usuarios individuales, grupos o sectores, los cuales compartiran un determinado nivel de acceso o restricciones.
+
+contents :	Coleccion con los usuarios, grupos o (si es necesario) sectores. (por el momento asumo que un sector puede ser un grupo)

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "hfm 8/15/2007 03:49",
+	"super" : "ASNamedEntity",
+	"category" : "ApplicationSecurity-UserModel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"description",
+		"users",
+		"roles"
+	],
+	"name" : "ASUserGroup",
+	"type" : "normal"
+}

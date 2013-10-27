@@ -1,8 +1,6 @@
 signaling
 messageText: aString
-	" See superimplementor's comment.
-	aString should be the username not found " 
-	" ES: 'La contrasea ingresada para es incorrecta' "
+	" Signal the receiver with aString message "
 
 	super messageText: (String streamContents: [: s |
 		s nextPutAll: 'Password entered for ' translated;

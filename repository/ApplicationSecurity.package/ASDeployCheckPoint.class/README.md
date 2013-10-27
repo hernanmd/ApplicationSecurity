@@ -1,0 +1,1 @@
+Verificador de acceso para un escenario de producción. Este objeto tiene activadas todas las verificaciones.

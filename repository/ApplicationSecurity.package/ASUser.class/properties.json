@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "hfm 1/16/2009 00:53",
+	"super" : "ASAbstractUser",
+	"category" : "ApplicationSecurity-UserModel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"eMail",
+		"address",
+		"phone",
+		"firstname",
+		"lastname"
+	],
+	"name" : "ASUser",
+	"type" : "normal"
+}

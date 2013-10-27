@@ -1,9 +1,8 @@
 signaling
 messageText: aString
-	"Sealizar con el mensaje aString.
-	aString debe ser el nombre del usuario, rol
-	o grupo no encontrado"
+	" Signal the receiver with aString message "
 
-	super messageText: (String streamContents: [: s |
-		s nextPutAll: aString;					
-		nextPutAll: ' is empty' translated. ]).
+	super messageText: (String streamContents: [ : stream |
+		stream 
+			nextPutAll: aString;
+			nextPutAll: ' is empty' translated ]).

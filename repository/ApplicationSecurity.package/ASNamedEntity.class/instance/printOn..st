@@ -1,5 +1,5 @@
 printing
 printOn: aStream
-	"Privado - Ver superimplementador"
+	" Private - See superimplementor's comment "
 	
 	aStream nextPutAll: self name

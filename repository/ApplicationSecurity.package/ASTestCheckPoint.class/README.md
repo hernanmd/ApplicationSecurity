@@ -1,0 +1,1 @@
+Los registros de fallas se guardan en un repositorio descartable.

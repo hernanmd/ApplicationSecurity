@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "hfm 3/19/2008 19:21",
+	"super" : "ASCheckPoint",
+	"category" : "ApplicationSecurity-CheckPoint",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"connectionRepository",
+		"machineFailCounts",
+		"userFailCounts",
+		"globalFailCount",
+		"encryptionAlgo"
+	],
+	"name" : "ASSecuredCheckPoint",
+	"type" : "normal"
+}

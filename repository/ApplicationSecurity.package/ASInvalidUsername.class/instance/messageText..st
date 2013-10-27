@@ -1,7 +1,6 @@
 signaling
 messageText: aString
-	"Set the receiver's message text. 	aString should be the username
-		not found "
+	" Signal the receiver with aString message. aString should be the user name not found "
 
 	super messageText: (String streamContents: [: s |
 		s nextPutAll: 'Invalid user. Reason: ' translated;

@@ -1,0 +1,1 @@
+This class assumes that you have a Person class in your model. If not, you migth use ASUser

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "nm 10/31/2008 17:51",
+	"super" : "ASAbstractUser",
+	"category" : "ApplicationSecurity-UserModel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Map"
+	],
+	"instvars" : [
+		"person"
+	],
+	"name" : "ASPersonUser",
+	"type" : "normal"
+}

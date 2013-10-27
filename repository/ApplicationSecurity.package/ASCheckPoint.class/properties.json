@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "hfm 11/6/2008 00:20",
+	"super" : "Object",
+	"category" : "ApplicationSecurity-CheckPoint",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"validationSettings"
+	],
+	"name" : "ASCheckPoint",
+	"type" : "normal"
+}

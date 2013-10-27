@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "ASNamedEntity",
+	"category" : "ApplicationSecurity-UserModel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"password",
+		"groups",
+		"active"
+	],
+	"name" : "ASAbstractUser",
+	"type" : "normal"
+}
