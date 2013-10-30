@@ -1,6 +1,6 @@
 accessing-password validation
 passwordExpiredFor: anUser
-	"Responde <true> si anUser tiene su contraseña expirada"
+	" Private - Answer <true> if password is expired for anUser "
 	
-	^ ( self daysFromCreationDate: ( self creationDateFor: anUser)) > self passwordExpirationCount
+	^ (self daysFromCreationDate: anUser registrationDate) > self passwordExpirationCount
 		

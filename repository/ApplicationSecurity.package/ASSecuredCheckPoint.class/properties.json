@@ -10,7 +10,8 @@
 		"machineFailCounts",
 		"userFailCounts",
 		"globalFailCount",
-		"encryptionAlgo"
+		"encryptionAlgo",
+		"repository"
 	],
 	"name" : "ASSecuredCheckPoint",
 	"type" : "normal"

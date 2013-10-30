@@ -1,7 +1,5 @@
 accessing-password validation
 daysFromCreationDate: aDate
-	"Privado - Responde un SmallInteger con la cantidad
-	de dias transcurridos desde aDate"
+	" Private - Answer a <SmallInteger> of days since aDate "
 
 	^ Date today subtractDate: aDate.
-		
