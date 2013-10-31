@@ -6,12 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"connectionRepository",
 		"machineFailCounts",
 		"userFailCounts",
 		"globalFailCount",
 		"encryptionAlgo",
-		"repository"
+		"repository",
+		"repoFilename"
 	],
 	"name" : "ASSecuredCheckPoint",
 	"type" : "normal"

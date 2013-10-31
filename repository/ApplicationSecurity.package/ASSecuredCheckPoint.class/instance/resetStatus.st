@@ -6,5 +6,5 @@ resetStatus
 	userFailCounts := Dictionary new.
 	globalFailCount := 0.
 	self updateConnectionRepository.
-	connectionRepository := nil.	
+	repoFilename := nil.	
 	
