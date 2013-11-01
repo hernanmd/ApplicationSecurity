@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ASUser",
+	"category" : "ApplicationSecurity-UserModel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ASCandidateUser",
+	"type" : "normal"
+}
