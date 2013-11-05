@@ -10,7 +10,9 @@
 		"address",
 		"phone",
 		"firstname",
-		"lastname"
+		"lastname",
+		"institute",
+		"researchGroup"
 	],
 	"name" : "ASUser",
 	"type" : "normal"

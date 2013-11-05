@@ -1,0 +1,1 @@
+An user which is candidate to be an ASUser. This is for example a user which is registering.

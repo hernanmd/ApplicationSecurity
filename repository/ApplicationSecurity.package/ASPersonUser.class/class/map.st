@@ -1,4 +1,5 @@
 accessing
 map
 
-^Map ifNil:[Map:= IdentityDictionary new]
+	^ Map 
+		ifNil:[ Map:= IdentityDictionary new ]

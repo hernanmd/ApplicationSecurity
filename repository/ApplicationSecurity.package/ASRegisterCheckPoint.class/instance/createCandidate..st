@@ -5,5 +5,7 @@ createCandidate: options
 		name: (options at: #NAME);
 		username: (options at: #USERNAME);
 		password: (options at: #PASSWORD);
-		email: (options at: #EMAIL);
+		eMail: (options at: #EMAIL);
+		institute: (options at: #INSTITUTE);
+		researchGroup: (options at: #RESEARCHGROUP);
 		yourself.
