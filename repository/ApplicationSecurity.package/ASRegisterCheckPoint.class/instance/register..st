@@ -2,7 +2,7 @@ authentication
 register: candidateUser
 	" Answer an ASUser if all checks passes "
 	
-	(self validateRegSettings: candidateUser)
+	candidateUser isValidForRegistration
 		ifTrue: [ self registerCandidate: candidateUser ]
 		ifFalse: [ ASEntityNotFound signal: 'Problema'.
 			^ false ].
