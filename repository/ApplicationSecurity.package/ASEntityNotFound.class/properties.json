@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "hfm 3/9/2008 13:21",
+	"commentStamp" : "<historical>",
 	"super" : "ASSecurityError",
 	"category" : "ApplicationSecurity-Exceptions",
 	"classinstvars" : [ ],

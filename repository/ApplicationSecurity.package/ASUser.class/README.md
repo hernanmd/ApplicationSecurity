@@ -1,9 +1,9 @@
 ASUser = Application Security User. Use this class if you do not have Person or User class in your model.
 
-firstname 		<String>		El nombre real de la persona
-lastname 		<String>		El apellido de la persona..
-password :		<String>		Cadena encriptada que representa la contraseña.
-person : 		<Person>		Person asociado con este User.
-groups : 		<Collection>	De CAUserGroup de los grupos a los que pertenece el receptor.
+firstname 		<String>		Real name
+lastname 		<String>		Real surname
+password :		<String>		Crypted password
+person : 		<Person>		Associated Person class instance if exists
+groups : 		<Collection>	Groups where the user belongs
 eMail:			<String>
-address:			<String>
+address:		<String>

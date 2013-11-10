@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "hfm 1/16/2009 00:53",
+	"commentStamp" : "<historical>",
 	"super" : "ASAbstractUser",
 	"category" : "ApplicationSecurity-UserModel",
 	"classinstvars" : [ ],
