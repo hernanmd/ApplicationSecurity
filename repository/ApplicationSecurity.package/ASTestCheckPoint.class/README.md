@@ -1,1 +1,1 @@
-Los registros de fallas se guardan en un repositorio descartable.
+Check point for a testing scenarios like development.

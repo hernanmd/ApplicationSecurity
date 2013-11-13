@@ -11,4 +11,4 @@ increaseUserFailCountFor: anASUser
 		at: anASUser
 		put: failCountforUser.
 	self increaseCurrentFailCount.
-	self updateConnectionRepository
+	self stats addFailCountFor: anASUser.

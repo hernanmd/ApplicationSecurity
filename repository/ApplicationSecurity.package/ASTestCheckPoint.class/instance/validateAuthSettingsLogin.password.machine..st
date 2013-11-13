@@ -3,13 +3,13 @@ validateAuthSettingsLogin: anUserString password: aPasswordString machine: anIPA
 	" Private - Throw an exception if any validation fails "
 
 	(anUserString isEmpty or: [ anUserString isNil ])
-		ifTrue: [ ^ ASEmptyError signal: 'Nombre de Usuario' translated ].
+		ifTrue: [ ^ ASEmptyError signal: 'User name' translated ].
 		
 	(aPasswordString isEmpty or: [ aPasswordString isNil ])
-		ifTrue: [ ^ ASEmptyError signal: 'Contraseña' translated ].
+		ifTrue: [ ^ ASEmptyError signal: 'Password' translated ].
 		
-	( self validationSettings allowedUsernameCharacters includesAllOf: anUserString)
-		ifFalse: [ ^ ASInvalidUsername signal: 'Caracteres invalidos ' translated , anUserString ].
+	(self validationSettings allowedUsernameCharacters includesAllOf: anUserString)
+		ifFalse: [ ^ ASInvalidUsername signal: 'Invalid characters ' translated , anUserString ].
 		
 	(self validationSettings allowedPasswordCharacters includesAllOf: anUserString)
 		ifFalse: [ ^ ASPasswordError signal: anUserString ].			

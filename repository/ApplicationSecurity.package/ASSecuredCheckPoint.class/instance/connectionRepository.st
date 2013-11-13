@@ -1,4 +1,4 @@
-statistics-accessing
+accessing
 connectionRepository
 	" Answer a <String> representing the current repository name "
 

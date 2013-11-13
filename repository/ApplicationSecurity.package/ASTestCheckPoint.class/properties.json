@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "hfm 3/19/2008 19:24",
+	"commentStamp" : "<historical>",
 	"super" : "ASSecuredCheckPoint",
 	"category" : "ApplicationSecurity-CheckPoint",
 	"classinstvars" : [ ],

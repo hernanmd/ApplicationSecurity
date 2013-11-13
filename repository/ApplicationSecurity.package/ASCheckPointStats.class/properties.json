@@ -1,16 +1,16 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "ASCheckPoint",
+	"super" : "Object",
 	"category" : "ApplicationSecurity-CheckPoint",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"encryptionAlgo",
-		"repository",
-		"repoFilename",
-		"stats"
+		"machineFailCounts",
+		"userFailCounts",
+		"globalFailCount",
+		"checkPoint"
 	],
-	"name" : "ASSecuredCheckPoint",
+	"name" : "ASCheckPointStats",
 	"type" : "normal"
 }

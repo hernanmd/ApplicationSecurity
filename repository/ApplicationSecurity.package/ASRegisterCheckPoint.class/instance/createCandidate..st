@@ -1,5 +1,6 @@
 registration
 createCandidate: options
+	" Private - Answer a temporary user for registering purposes "
 
 	^ ASCandidateUser new
 		name: (options at: #NAME);
