@@ -4,5 +4,4 @@ initialize
 
 	super initialize.	
 	self stats reset.
-	self updateRepository.
 	repoFilename := nil.	
