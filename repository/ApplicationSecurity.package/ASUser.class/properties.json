@@ -13,7 +13,8 @@
 		"lastname",
 		"institute",
 		"researchGroup",
-		"ipAddress"
+		"ipAddress",
+		"registrationDate"
 	],
 	"name" : "ASUser",
 	"type" : "normal"

@@ -2,4 +2,4 @@ accessing-machine validation
 allowedPeers
 
 	^ legalMachines
-		ifNil: [ legalMachines := Set newFrom: self validPeerIdentifiers ]
+		ifNil: [ legalMachines := Set newFrom: self class defaultValidPeerIdentifiers ]
