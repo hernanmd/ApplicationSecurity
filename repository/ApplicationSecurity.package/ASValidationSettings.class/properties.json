@@ -1,12 +1,11 @@
 {
-	"commentStamp" : "hfm 11/6/2008 01:17",
+	"commentStamp" : "<historical>",
 	"super" : "ASNamedEntity",
 	"category" : "ApplicationSecurity-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"repository",
 		"encryptionAlgo",
 		"maxUsernameCharacters",
 		"maxPasswordCharacters",
@@ -14,7 +13,8 @@
 		"allowedPasswordCharacters",
 		"passwordExpirationCount",
 		"allowedMachines",
-		"legalMachines"
+		"legalMachines",
+		"checkPoint"
 	],
 	"name" : "ASValidationSettings",
 	"type" : "normal"

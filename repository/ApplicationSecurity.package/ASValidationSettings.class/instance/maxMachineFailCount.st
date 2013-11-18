@@ -1,6 +1,5 @@
 defaults
 maxMachineFailCount
-	"Responde la cantidad de fallas
-	maximas permitidas por maquina"
+	" Answer a <SmallInteger> with maximum count of allowed fails per remote peer "
 	
 	^ 40

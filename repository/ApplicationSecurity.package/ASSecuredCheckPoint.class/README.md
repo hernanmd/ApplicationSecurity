@@ -1,7 +1,7 @@
 A secured check point implements methods for securing an application.
 
-legalMachines 		<Set>	Conjunto con las maquinas legales en el sistema 
-allowedMachines 	<Set>	Conjunto con las maquinas permitidas por el sistema.
+legalMachines 		<Set>	
+allowedMachines 	<Set>	Peers allowed to enter a system
 repository			<Dictionary> 
 			( (#users-> <Collection>) ,
 			  (#stats -> <ASCheckPointStats>) )

@@ -1,6 +1,5 @@
 authentication
-loginUserNamed: anUserString password: aPasswordString machine: anIPAddress
-	" Responde un CAUser si aPasswordString
-	es correcto para anUserString en el repositorio"
-	
+loginUserNamed: userName password: passString machine: ipAddress
+	" Answer an user if passString, userName and ipAddress are valid for the receiver "
+		
 	self subclassResponsibility

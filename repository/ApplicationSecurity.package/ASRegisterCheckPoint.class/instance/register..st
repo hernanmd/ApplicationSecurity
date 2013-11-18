@@ -1,9 +1,5 @@
 authentication
 register: candidateUser
-	" Answer an ASUser if all checks passes "
+	" Register candidateUser as an ASUser if all checks passes. Raise an exception if not succed "
 	
-	candidateUser isValidForRegistration
-		ifTrue: [ self registerCandidate: candidateUser ]
-		ifFalse: [ ASEntityNotFound signal: 'Problema'.
-			^ false ].
-	^ true
+	^ (self validationSettings registerIfValid: candidateUser) or: [ ASEntityNotFound signal: 'Cannot register entity'.  ].

@@ -12,7 +12,8 @@
 		"firstname",
 		"lastname",
 		"institute",
-		"researchGroup"
+		"researchGroup",
+		"ipAddress"
 	],
 	"name" : "ASUser",
 	"type" : "normal"

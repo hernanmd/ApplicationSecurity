@@ -1,3 +1,3 @@
 accessing-machine validation
-legalMachines: anObject
+allowedPeers: anObject
 	legalMachines := anObject

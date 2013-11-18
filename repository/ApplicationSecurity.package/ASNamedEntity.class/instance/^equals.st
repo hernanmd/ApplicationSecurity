@@ -1,6 +1,6 @@
 comparing
-= aCAEntity
-	"Responde <true> si el receptor es igual a aCAEntity"
+= anASNamedEntity
+	" Answer <true> if receiver is equal to anASanASNamedEntity "
 	
-	^ self species = aCAEntity species
-		and: [ self name = aCAEntity name ]
+	^ self species = anASNamedEntity species
+		and: [ self name = anASNamedEntity name ]

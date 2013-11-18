@@ -1,6 +1,5 @@
 defaults
 maxGlobalFailCount
-	"Responde la cantidad de fallas
-	maximas permitidas en el sistema"
+	" Answer a <SmallInteger> of allowed global entry fails in a system "
 	
 	^ SmallInteger maxVal

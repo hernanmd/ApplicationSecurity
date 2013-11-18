@@ -2,7 +2,7 @@ authentication
 loginUserNamed: anUserString password: aPasswordString machine: anIPAddress
 	" Private - Answer a mock user for testing purposes "
 	
-	^ (ASUser new)
+	^ ASUser new
 		name: 'Alex Keaton';
 		password: 'testPassword';
 		firstname: 'Test';

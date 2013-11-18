@@ -7,17 +7,14 @@ validateAuthSettingsLogin: anUserString password: aPasswordString machine: anIPA
 	(aPasswordString isEmpty or: [ aPasswordString isNil ])
 		ifTrue: [ ^ ASEmptyError signal: 'Campo de contraseña' ].
 		
-	( self isMachineAllowed: anIPAddress )
+	(self isValidIpAddress: anIPAddress)
 		ifFalse: [ ^ ASDenegatedAccess signal ].
 		
-	( self isMachineLegal: anIPAddress )
-		ifFalse: [ ^ ASDenegatedAccess signal ].
-		
-	( self validationSettings allowedUsernameCharacters includesAllOf: anUserString )
+	(self validationSettings allowedUsernameCharacters includesAllOf: anUserString)
 		ifFalse: [ ^ ASInvalidUsername signal: 'Caracteres invalidos ' translated , anUserString ].
 		
-	( self validationSettings allowedPasswordCharacters includesAllOf: aPasswordString )
+	(self validationSettings allowedPasswordCharacters includesAllOf: aPasswordString)
 		ifFalse: [ ^ ASPasswordError signal: anUserString ].
 		
-	( self validationSettings passwordExpiredFor: anUserString )
+	(self validationSettings passwordExpiredFor: anUserString)
 		ifTrue: [ ^ ASInvalidUsername signal: 'Contraseña ha expirado' translated ].

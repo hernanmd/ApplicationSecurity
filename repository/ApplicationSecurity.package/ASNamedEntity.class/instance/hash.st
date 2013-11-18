@@ -1,6 +1,5 @@
 comparing
 hash
-	"Responde el valor de dispersion
-	del receptor"
+	" Private - Hash is reimplemented because #= is reimplemented "
 	
 	^ self name hash

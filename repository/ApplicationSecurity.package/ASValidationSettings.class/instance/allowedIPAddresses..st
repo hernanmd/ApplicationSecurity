@@ -1,3 +1,3 @@
 accessing-machine validation
-allowedMachines: anObject
+allowedIPAddresses: anObject
 	allowedMachines := anObject

@@ -1,5 +1,5 @@
 accessing
 name
-	"Responde el nombre del receptor"
+	" Answer a <String> with the receiver's name "
 	
-	^name
+	^ name

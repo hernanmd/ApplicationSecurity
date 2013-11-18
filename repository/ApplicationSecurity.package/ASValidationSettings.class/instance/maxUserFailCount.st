@@ -1,6 +1,5 @@
 defaults
 maxUserFailCount
-	"Responde la cantidad de fallas
-	maximas permitidas por usuario"
+	" Answer a <SmallInteger> of the maximum count of allowed fails per user "
 	
 	^ 40

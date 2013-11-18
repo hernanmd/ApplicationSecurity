@@ -1,6 +1,5 @@
 accessing
 name: aString
-	"Configura el nombre
-	del receptor a aString"
+	" Set aString to be the receiver's name "
 	
 	name := aString
