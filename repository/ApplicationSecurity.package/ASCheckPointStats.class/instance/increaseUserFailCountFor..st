@@ -10,5 +10,3 @@ increaseUserFailCountFor: anASUser
 	self userFailCounts
 		at: anASUser
 		put: failCountforUser.
-	self increaseCurrentFailCount.
-	self stats addFailCountFor: anASUser.

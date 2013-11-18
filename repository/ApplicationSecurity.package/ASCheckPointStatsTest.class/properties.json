@@ -1,13 +1,13 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "ASTest",
 	"category" : "ApplicationSecurity-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"settings"
+		"cpStats"
 	],
-	"name" : "ASValidationSettingsTest",
+	"name" : "ASCheckPointStatsTest",
 	"type" : "normal"
 }

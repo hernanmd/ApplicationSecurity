@@ -1,5 +1,5 @@
 statistics-actions
-increaseCurrentFailCount
+increaseGlobalFailCount
 	" Private - Increase the receiver's global fail count "
 	
 	self globalFailCount: self globalFailCount + 1.

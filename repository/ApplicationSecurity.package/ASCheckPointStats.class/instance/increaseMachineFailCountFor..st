@@ -1,13 +1,15 @@
 statistics-actions
-increaseMachineFailCountFor: aStringIpAddress
-	" Private - Increase the count for fails per aMachine "
+increaseMachineFailCountFor: peerId
+	" Private - Increase the count for fails per peerId "
 	
 	| failCountforMachine |
 
-	self machineFailCounts at: aStringIpAddress ifAbsentPut: [ 0 ].
-	failCountforMachine := (self machineFailCounts at: aStringIpAddress) + 1.
+	self machineFailCounts at: peerId ifAbsentPut: [ 0 ].
+	failCountforMachine := (self machineFailCounts at: peerId) + 1.
 	self validationSettings maxMachineFailCount = failCountforMachine
-		ifTrue: [ ASMaxMachineFailCountError signal: aStringIpAddress ]. 
-	self machineFailCounts at: aStringIpAddress put: failCountforMachine.
-	self increaseCurrentFailCount.
+		ifTrue: [ ASMaxMachineFailCountError signal: peerId ]. 
+	self machineFailCounts 
+			at: peerId 
+			put: failCountforMachine.
+
 	
