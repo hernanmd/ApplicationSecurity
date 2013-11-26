@@ -3,4 +3,4 @@ isValidIpAddress: aStringIpAddress
 	" Answer <true> if aStringIpAddress is not restricted for the receiver "
 	
 	^ (self validationSettings allowedIPAddresses includes: aStringIpAddress)
-		or: [ self increaseMachineFailCountFor: aStringIpAddress. false ].
+		or: [ self stats increaseMachineFailCountFor: aStringIpAddress. false ].

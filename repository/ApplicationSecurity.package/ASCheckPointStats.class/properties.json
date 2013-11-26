@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "Object",
+	"super" : "ASNamedEntity",
 	"category" : "ApplicationSecurity-CheckPoint",
 	"classinstvars" : [ ],
 	"pools" : [ ],
