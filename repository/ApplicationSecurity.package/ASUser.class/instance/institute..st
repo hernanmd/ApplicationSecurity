@@ -1,3 +1,4 @@
 accessing
-institute: anObject
-	institute := anObject
+institute: aString 
+
+	institute := aString

@@ -5,11 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"description",
-		"users",
-		"roles"
-	],
-	"name" : "ASUserGroup",
+	"instvars" : [ ],
+	"name" : "ASMockEntity",
 	"type" : "normal"
 }
