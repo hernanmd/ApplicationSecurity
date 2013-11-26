@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "ASTest",
+	"category" : "ApplicationSecurityTest-CheckPoint",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cpStats"
+	],
+	"name" : "ASCheckPointStatsTest",
+	"type" : "normal"
+}
