@@ -1,1 +1,2 @@
-Verificaciones de seguridad y sus repercusiones para un entorno de desarrollo. Las verificaciones no importan.
+Security check point for development scenario.
+Verifications are ignored.

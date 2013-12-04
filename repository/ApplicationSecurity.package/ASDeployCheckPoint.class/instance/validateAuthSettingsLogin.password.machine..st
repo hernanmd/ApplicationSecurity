@@ -1,5 +1,6 @@
 validation
 validateAuthSettingsLogin: anUserString password: aPasswordString machine: anIPAddress
+	" Private - See superimplementor's comment "
 
 	(anUserString isEmpty or: [ anUserString isNil ])
 		ifTrue: [ ^ ASEmptyError signal: 'Campo de nombre de usuario' translated ].
