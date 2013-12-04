@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "TestCase",
+	"super" : "ASCheckPointTest",
 	"category" : "ApplicationSecurityTest-CheckPoint",
 	"classinstvars" : [ ],
 	"pools" : [ ],
