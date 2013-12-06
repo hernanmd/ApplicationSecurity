@@ -2,7 +2,7 @@ testing
 mockUserValid
 
 	^ ASCandidateUser new
-		name: 'alphabetic name';
+		entityName: 'alphabetic name';
 		username: 'alpha';
 		password: 'alphanumeric123';
 		yourself.

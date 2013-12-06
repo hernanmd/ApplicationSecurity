@@ -2,5 +2,5 @@ testing
 testName
 
 	entity := ASMockEntity new.
-	entity name: 'mock entity'.
-	self assert: entity name = 'mock entity'.
+	entity entityName: 'mock entity'.
+	self assert: entity entityName = 'mock entity'.
