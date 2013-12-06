@@ -1,5 +1,10 @@
 authentication
 register: candidateUser
-	" Register candidateUser as an ASUser if all checks passes. Raise an exception if not succed "
+	" Add anASanASEntity to the receiver's repository of entities "
 	
-	^ (self validationSettings registerIfValid: candidateUser) or: [ ASEntityNotFound signal: 'Cannot register entity'.  ].
+	| users newUser |
+	
+	newUser := candidateUser asUser.
+	users := self repository at: #users ifAbsentPut: [ OrderedCollection new ].
+	users add: newUser.
+	self updateRepository.

@@ -1,6 +1,6 @@
 accessing
-registerIfValid: anASEntity
-	" Private - Register anASEntity if receiver passes validations "
+registrationIsValid: anASEntity
+	" Private - Answer <true> if anASEntity passes receiver's validations "
 	
 	(self allowedPasswordCharacters includesAll: anASEntity password)
 		ifFalse: [ ^ false ].
@@ -8,5 +8,4 @@ registerIfValid: anASEntity
 		ifFalse: [ ^ false ].
 	(self allowedIPAddresses includes: anASEntity ipAddress)
 		ifFalse: [ ^ false ].
-	self checkPoint registerCandidate: anASEntity.
 	^ true	

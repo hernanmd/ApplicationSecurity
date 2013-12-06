@@ -5,7 +5,7 @@ createCandidate: options
 
 	registrationOptions := self createRegistrationOptionsFrom: options.
 	^ ASCandidateUser new
-		name: registrationOptions name;
+		entityName: registrationOptions name;
 		username: registrationOptions username;
 		password: registrationOptions password;
 		eMail: registrationOptions eMail;

@@ -14,7 +14,8 @@
 		"institute",
 		"researchGroup",
 		"ipAddress",
-		"registrationDate"
+		"registrationDate",
+		"username"
 	],
 	"name" : "ASUser",
 	"type" : "normal"
