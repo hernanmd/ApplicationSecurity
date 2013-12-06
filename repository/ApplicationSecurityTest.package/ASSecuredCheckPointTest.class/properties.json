@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "ASCheckPointTest",
+	"super" : "TestCase",
 	"category" : "ApplicationSecurityTest-CheckPoint",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"candidate"
+		"checkPoint"
 	],
-	"name" : "ASRegisterCheckPointTest",
+	"name" : "ASSecuredCheckPointTest",
 	"type" : "normal"
 }
