@@ -1,12 +1,14 @@
 registration
 createCandidate: options
 	" Private - Answer a temporary user for registering purposes "
+	| registrationOptions |
 
+	registrationOptions := self createRegistrationOptionsFrom: options.
 	^ ASCandidateUser new
-		name: (options at: #NAME);
-		username: (options at: #USERNAME);
-		password: (options at: #PASSWORD);
-		eMail: (options at: #EMAIL);
-		institute: (options at: #INSTITUTE);
-		researchGroup: (options at: #RESEARCHGROUP);
+		name: registrationOptions name;
+		username: registrationOptions username;
+		password: registrationOptions password;
+		eMail: registrationOptions eMail;
+		institute: registrationOptions institute;
+		researchGroup: registrationOptions researchGroup;
 		yourself.

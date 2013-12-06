@@ -1,4 +1,4 @@
 accessing
 username: aString
 	
-	^ self name: aString
+	self entityName: aString

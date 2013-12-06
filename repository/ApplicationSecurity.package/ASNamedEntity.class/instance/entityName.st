@@ -1,5 +1,5 @@
 accessing
-name
+entityName
 	" Answer a <String> with the receiver's name "
 	
-	^ name
+	^ entityName

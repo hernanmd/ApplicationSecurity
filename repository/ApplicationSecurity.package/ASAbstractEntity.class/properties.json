@@ -10,6 +10,6 @@
 		"groups",
 		"active"
 	],
-	"name" : "ASAbstractUser",
+	"name" : "ASAbstractEntity",
 	"type" : "normal"
 }

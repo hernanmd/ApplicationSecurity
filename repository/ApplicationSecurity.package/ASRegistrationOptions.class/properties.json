@@ -1,13 +1,13 @@
 {
-	"commentStamp" : "hfm 1/16/2009 00:55",
+	"commentStamp" : "<historical>",
 	"super" : "Object",
 	"category" : "ApplicationSecurity-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"entityName"
+		"options"
 	],
-	"name" : "ASNamedEntity",
+	"name" : "ASRegistrationOptions",
 	"type" : "normal"
 }

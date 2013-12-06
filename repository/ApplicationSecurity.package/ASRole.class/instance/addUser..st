@@ -1,5 +1,5 @@
 accessing
-addUser: anUser
-	"Agrega anUser al receptor"
+addUser: anASUser
+	" Add an user named username to the receiver "
 	
-	self contents add: anUser.
+	self contents add: anASUser.

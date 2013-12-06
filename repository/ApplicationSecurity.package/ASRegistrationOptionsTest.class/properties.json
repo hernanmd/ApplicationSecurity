@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "ApplicationSecurity-Core-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"registrationOptions"
+	],
+	"name" : "ASRegistrationOptionsTest",
+	"type" : "normal"
+}

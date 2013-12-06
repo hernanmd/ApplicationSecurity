@@ -1,5 +1,5 @@
 initialize-release
 initialize
-	"Privado - Inicializa el receptor"
-	
+
+	super initialize.	
 	contents := Set new.
