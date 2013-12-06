@@ -1,0 +1,4 @@
+accessing
+defaultRandomAlgo
+
+	^ UUID new

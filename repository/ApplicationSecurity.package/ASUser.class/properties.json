@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "ASAbstractEntity",
+	"super" : "ASGroupableEntity",
 	"category" : "ApplicationSecurity-UserModel",
 	"classinstvars" : [ ],
 	"pools" : [ ],

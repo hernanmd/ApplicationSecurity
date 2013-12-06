@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "ApplicationSecurity-Password",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"length",
+		"randomAlgo"
+	],
+	"name" : "ASSaltCreator",
+	"type" : "normal"
+}

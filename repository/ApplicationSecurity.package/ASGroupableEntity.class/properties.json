@@ -10,6 +10,6 @@
 		"groups",
 		"active"
 	],
-	"name" : "ASAbstractEntity",
+	"name" : "ASGroupableEntity",
 	"type" : "normal"
 }
