@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ASUserTest",
+	"category" : "ApplicationSecurityTest-UserModel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ASCandidateUserTest",
+	"type" : "normal"
+}
