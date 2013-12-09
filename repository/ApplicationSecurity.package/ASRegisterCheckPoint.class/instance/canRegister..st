@@ -1,5 +1,5 @@
 authentication
 canRegister: candidateUser
-	" Register candidateUser as an ASUser if all checks passes. Raise an exception if not succed "
+	" Answer <true> if candidateUser can be registered into the system. Raise an exception if not "
 	
 	^ (self validationSettings registrationIsValid: candidateUser) or: [ ASEntityNotFound signal: 'Cannot register entity'.  ].

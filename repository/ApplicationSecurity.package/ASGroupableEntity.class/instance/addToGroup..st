@@ -1,5 +1,5 @@
 accessing
-addToGroup: aGroup
+addToGroup: anASGroup
 	" Add the receiver to anASGroup "
 
-	self groups add: aGroup
+	anASGroup add: self

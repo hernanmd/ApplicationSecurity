@@ -5,7 +5,6 @@ asUser
 			entityName: self entityName;
 			password: self password;
 			groups: self groups;
-			active: self active;
 			eMail: self eMail;
 			address: self address;
 			phone: self phone;

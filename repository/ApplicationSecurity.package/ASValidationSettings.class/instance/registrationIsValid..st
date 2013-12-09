@@ -4,7 +4,7 @@ registrationIsValid: anASEntity
 	
 	(self allowedPasswordCharacters includesAll: anASEntity password)
 		ifFalse: [ ^ false ].
-	(self allowedUsernameCharacters includesAll: anASEntity name)
+	(self allowedUsernameCharacters includesAll: anASEntity username)
 		ifFalse: [ ^ false ].
 	(self allowedIPAddresses includes: anASEntity ipAddress)
 		ifFalse: [ ^ false ].

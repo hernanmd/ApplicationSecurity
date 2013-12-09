@@ -1,9 +1,10 @@
 authentication
-registerCandidate: anASEntity
-	" Add anASanASEntity to the receiver's repository of entities "
+registerCandidate: candidateUser
+	" Add candidateUser to the receiver's repository of entities "
 	
-	| users |
-	
+	| users newUser |
+
+	newUser := candidateUser asUser.
 	users := self repository at: #users ifAbsentPut: [ OrderedCollection new ].
-	users add: anASEntity.
+	users add: newUser.
 	self updateRepository.

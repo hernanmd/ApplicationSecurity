@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"length",
-		"randomAlgo"
+		"randomAlgo",
+		"password"
 	],
 	"name" : "ASSaltCreator",
 	"type" : "normal"

@@ -8,7 +8,7 @@
 	"instvars" : [
 		"password",
 		"groups",
-		"active"
+		"enabled"
 	],
 	"name" : "ASGroupableEntity",
 	"type" : "normal"
