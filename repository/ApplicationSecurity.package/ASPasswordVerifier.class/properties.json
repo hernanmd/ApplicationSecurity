@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ApplicationSecurity-Password",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"password"
+	],
+	"name" : "ASPasswordVerifier",
+	"type" : "normal"
+}
