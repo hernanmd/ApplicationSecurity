@@ -8,6 +8,6 @@
 	"instvars" : [
 		"saltCreator"
 	],
-	"name" : "ASSaltCreatorTest",
+	"name" : "ASPasswordCreatorTest",
 	"type" : "normal"
 }
