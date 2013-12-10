@@ -1,3 +1,3 @@
 accessing
-password: anObject
+plainTextPassword: anObject
 	password := anObject

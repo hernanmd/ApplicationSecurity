@@ -1,5 +1,5 @@
 accessing
-saltPassword 
+finalPasswordHash 
 	" Answer a <String> with the receiver's hashed password and a hashed random salt "
 	
-	^ self hashPassword , self hashSaltString 
+	^ self hashString: self hashPassword , self hashedSalt 
