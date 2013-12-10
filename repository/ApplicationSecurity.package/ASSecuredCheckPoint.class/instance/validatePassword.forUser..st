@@ -4,7 +4,7 @@ validatePassword: passwordString forUser: anASUser
 	
 	(self validationSettings passwordExpiredFor: anASUser)
 		ifTrue: [ ^ ASSecurityError signal: 'Password is expired' translated ].
-	anASUser password = passwordString
+	(self verifyPassword: passwordString forUser: anASUser)
 		ifFalse: [ 
 			self stats increaseUserFailCountFor: anASUser.
 			self stats increaseGlobalFailCount.

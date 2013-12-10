@@ -3,7 +3,7 @@ addNewUser: anASUser
 
 	| saltAssoc |
 	
-	saltAssoc := ASPasswordCreator new plainTextPassword: anASUser password.
+	saltAssoc := (ASPasswordCreator new plainTextPassword: anASUser password) salt.
 	anASUser 
 		password: saltAssoc key;
 		salt: saltAssoc value.
