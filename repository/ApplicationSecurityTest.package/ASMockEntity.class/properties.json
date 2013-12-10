@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "ASNamedEntity",
+	"category" : "ApplicationSecurityTest-UserModel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ASMockEntity",
+	"type" : "normal"
+}
