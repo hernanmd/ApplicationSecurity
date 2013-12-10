@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "Object",
+	"super" : "ASPasswordObject",
 	"category" : "ApplicationSecurity-Password",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,9 +8,8 @@
 	"instvars" : [
 		"length",
 		"randomAlgo",
-		"password",
 		"hashedSalt"
 	],
-	"name" : "ASSaltCreator",
+	"name" : "ASPasswordCreator",
 	"type" : "normal"
 }

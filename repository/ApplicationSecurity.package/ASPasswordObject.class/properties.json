@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "ASPasswordObject",
+	"super" : "Object",
 	"category" : "ApplicationSecurity-Password",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"storedSalt",
-		"storedFinalPassword"
+		"password"
 	],
-	"name" : "ASPasswordVerifier",
+	"name" : "ASPasswordObject",
 	"type" : "normal"
 }

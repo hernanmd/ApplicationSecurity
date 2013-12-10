@@ -1,4 +1,4 @@
-accessing
+private
 defaultRandomAlgo
 
 	^ UUID new
