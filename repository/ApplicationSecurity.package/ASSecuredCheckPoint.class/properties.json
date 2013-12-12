@@ -6,7 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"encryptionAlgo",
 		"repository",
 		"repoFilename",
 		"stats"

@@ -8,7 +8,6 @@ loginUserNamed: anUserString password: aPasswordString machine: anIPAddress
 	self validateAuthSettingsLogin: username
 		password: aPasswordString trimBoth
 		machine: anIPAddress.
-	(user := self repository userByName: username)
-		ifNil: [ ^ ASEntityNotFound signal: username ].
+	user := self userByName: username.
 	self validatePassword: aPasswordString forUser: user.
 	^ user
