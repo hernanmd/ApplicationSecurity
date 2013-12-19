@@ -1,11 +1,9 @@
 accessing
-removeUser: username
-	" Remove the user named username from the receiver "
-	
-	| object |
-	
-	object := self contents 
-		detect: [: user | user name = username ]
-		ifNone: [ ASEntityNotFound signal: username ].
-	self contents remove: object.
+removeUser: anASUser
+	" Remove anASUser from the receiver. Raise an exception if not found "
+
+	self contents 
+		remove: anASUser
+		ifAbsent: [ ASEntityNotFound signal: anASUser username ].
+
 	
