@@ -4,4 +4,4 @@ repositoryAdministrators
 
 	^ self repository 
 			at: #administrators
-			ifAbsentPut: [ OrderedCollection new ]			
+			ifAbsentPut: [ OrderedCollection with: self defaultAdministrator ]			
