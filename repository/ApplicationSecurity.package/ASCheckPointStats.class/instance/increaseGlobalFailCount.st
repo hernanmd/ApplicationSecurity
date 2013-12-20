@@ -5,4 +5,4 @@ increaseGlobalFailCount
 	self globalFailCount: self globalFailCount + 1.
 	self validationSettings maxGlobalFailCount = self globalFailCount
 		ifTrue: [ ASMaxGlobalFailCountError signal ].
-
+	self checkPoint updateRepositoryStats.

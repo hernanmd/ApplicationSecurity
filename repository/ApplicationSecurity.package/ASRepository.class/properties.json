@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "ApplicationSecurity-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"repository",
+		"repositoryName",
+		"repoFilename",
+		"checkPoint"
+	],
+	"name" : "ASRepository",
+	"type" : "normal"
+}

@@ -1,8 +1,7 @@
-statistics-actions
+initialize-release
 resetStatus
 	" Private - Reinitialize the receiver "
 	
 	self stats reset.
-	self updateRepository.
-	repoFilename := nil.	
+	self repository updateRepository.
 	

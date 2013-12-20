@@ -11,5 +11,4 @@ increaseMachineFailCountFor: peerId
 	self machineFailCounts 
 			at: peerId 
 			put: failCountforMachine.
-
-	
+	self checkPoint updateRepositoryStats.

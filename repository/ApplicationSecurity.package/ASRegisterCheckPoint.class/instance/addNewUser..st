@@ -1,5 +1,6 @@
 authentication
 addNewUser: anASUser
+	" Add anASUser to the receiver's users "
 
 	| saltAssoc |
 	
@@ -7,5 +8,4 @@ addNewUser: anASUser
 	anASUser 
 		password: saltAssoc key;
 		salt: saltAssoc value.
-	(self repository at: #users ifAbsentPut: [ OrderedCollection new ]) 
-		add: anASUser.
+	self repository addNewUser: anASUser.

@@ -10,3 +10,4 @@ increaseUserFailCountFor: anASUser
 	self userFailCounts
 		at: anASUser
 		put: failCountforUser.
+	self checkPoint updateRepositoryStats.		
