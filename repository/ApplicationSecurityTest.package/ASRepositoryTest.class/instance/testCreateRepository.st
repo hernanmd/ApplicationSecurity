@@ -3,10 +3,10 @@ testCreateRepository
 
 	| fileRef |
 	
-	fileRef := self checkPoint repoFilename asFileReference.
+	fileRef := self repository repoFilename asFileReference.
 	fileRef ensureDeleted.
 	self deny: (DiskStore current isFile: fileRef path).
-	self checkPoint createRepository.
+	self repository createRepository.
 	self assert: (DiskStore current isFile: fileRef path).
 
 	

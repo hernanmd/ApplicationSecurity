@@ -3,5 +3,5 @@ tearDown
 
 	| fileRef |
 	
-	fileRef := self checkPoint repoFilename asFileReference.
+	fileRef := self repository repoFilename asFileReference.
 	fileRef ensureDeleted.

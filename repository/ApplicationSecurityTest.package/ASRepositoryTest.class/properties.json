@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"checkPoint"
+		"repository"
 	],
-	"name" : "ASSecuredCheckPointTest",
+	"name" : "ASRepositoryTest",
 	"type" : "normal"
 }
