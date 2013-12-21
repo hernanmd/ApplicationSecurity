@@ -1,5 +1,6 @@
 converting
 asUser
+	" Receiver's has been validated, mutate it to a valid form "
 
 	^ self becomeForward: (ASUser new
 			entityName: self entityName;

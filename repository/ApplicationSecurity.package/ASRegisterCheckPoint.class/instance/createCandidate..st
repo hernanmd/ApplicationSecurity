@@ -12,4 +12,5 @@ createCandidate: options
 		institute: registrationOptions institute;
 		researchGroup: registrationOptions researchGroup;
 		registrationDate: Date today;
+		registrationId: self registrationId;
 		yourself.

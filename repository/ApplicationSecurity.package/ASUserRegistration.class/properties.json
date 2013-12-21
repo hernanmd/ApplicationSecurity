@@ -1,13 +1,15 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "ASUser",
+	"super" : "Object",
 	"category" : "ApplicationSecurity-UserModel",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"registrationId"
+		"time",
+		"candidate",
+		"linkIdentifier"
 	],
-	"name" : "ASCandidateUser",
+	"name" : "ASUserRegistration",
 	"type" : "normal"
 }
