@@ -1,4 +1,5 @@
 accessing
-userByRegistrationId: registrationId
-
-	^ self repository userByRegistrationId: registrationId
+userByRegistrationId: registrationIdString
+	" Answer an <ASUser> given registrationIdString "
+	
+	^ self repository userByRegistrationId: registrationIdString
