@@ -12,4 +12,5 @@ mockValidCandidate
 		eMail: registrationOptions eMail;
 		institute: registrationOptions institute;
 		researchGroup: registrationOptions researchGroup;
+		registrationId: 'TestRegId';
 		yourself.
