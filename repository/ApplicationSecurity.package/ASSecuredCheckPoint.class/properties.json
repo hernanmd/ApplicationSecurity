@@ -7,7 +7,6 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"repository",
-		"repoFilename",
 		"stats"
 	],
 	"name" : "ASSecuredCheckPoint",
