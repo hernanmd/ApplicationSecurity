@@ -13,4 +13,5 @@ createCandidate: options
 		researchGroup: registrationOptions researchGroup;
 		registrationDate: Date today;
 		registrationId: self registrationId;
+		ipAddress: registrationOptions ipAddress;
 		yourself.

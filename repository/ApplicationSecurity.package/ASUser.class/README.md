@@ -8,3 +8,4 @@ groups : 			<Collection>	Groups where the user belongs
 eMail:				<String>
 address:			<String>
 registrationDate	<Date>
+ipAddress			<String>		Current IP address of user

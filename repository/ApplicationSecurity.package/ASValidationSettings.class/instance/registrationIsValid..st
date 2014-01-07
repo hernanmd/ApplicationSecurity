@@ -6,6 +6,6 @@ registrationIsValid: anASEntity
 		ifFalse: [ ^ false ].
 	(self allowedUsernameCharacters includesAll: anASEntity username)
 		ifFalse: [ ^ false ].
-	(self allowedIPAddresses includes: anASEntity ipAddress)
+	((self allowedIPAddresses includes: anASEntity ipAddress) or: [ self allowedIPAddresses includes: '*' ])
 		ifFalse: [ ^ false ].
 	^ true	
