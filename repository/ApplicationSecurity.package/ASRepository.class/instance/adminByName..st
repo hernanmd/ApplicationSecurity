@@ -1,4 +1,4 @@
-accessing
+queries
 adminByName: userName
 	" Answer an <ASUser> named userName. If not found signal an exception "
 	

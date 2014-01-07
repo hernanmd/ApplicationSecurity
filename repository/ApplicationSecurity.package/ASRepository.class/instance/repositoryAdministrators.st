@@ -1,4 +1,4 @@
-accessing
+queries
 repositoryAdministrators
 	" Answer a <Collection> of administrative users in the receiver's repository "
 
