@@ -1,4 +1,4 @@
-testing
+queries
 userByRegistrationId: registrationId
 	" Answer the receiver's candidate matching registrationId, signal an exception if not found "
 	
