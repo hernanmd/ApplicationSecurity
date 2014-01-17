@@ -5,10 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"password",
-		"hasher"
-	],
-	"name" : "ASPasswordObject",
+	"instvars" : [ ],
+	"name" : "ASHasher",
 	"type" : "normal"
 }

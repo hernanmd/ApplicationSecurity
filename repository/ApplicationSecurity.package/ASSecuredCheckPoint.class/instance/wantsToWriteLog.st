@@ -1,4 +1,4 @@
-accessing
+defaults
 wantsToWriteLog
 	" Answer <true> if receiver wants to serialize the connection logs "
 	

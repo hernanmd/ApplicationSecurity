@@ -5,10 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"users",
-		"loginVerifier"
-	],
+	"instvars" : [ ],
 	"name" : "ASDeployCheckPoint",
 	"type" : "normal"
 }
