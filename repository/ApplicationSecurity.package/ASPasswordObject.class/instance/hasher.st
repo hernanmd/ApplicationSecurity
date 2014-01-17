@@ -1,4 +1,4 @@
 accessing
 hasher
 	^ hasher
-		ifNil: [ hasher := self defaultHasher ]
+		ifNil: [ hasher := self defaultHasher new ]

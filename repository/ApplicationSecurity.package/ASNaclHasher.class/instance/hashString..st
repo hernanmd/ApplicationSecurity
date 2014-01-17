@@ -1,5 +1,5 @@
 accessing
 hashString: aString
-	" See class comments for details "
+	" Answer a <String>. See class comments for details. "
 	
-	^ Nacl hashString: aString
+	^ (Nacl hashString: aString) hex

@@ -2,4 +2,4 @@ accessing
 hashString: aString
 	" Private - Secure hash the receiver's password "
 	
-	^ self hasher hash
+	^ self hasher hashString: aString
