@@ -1,12 +1,14 @@
 tests-accessing
 testUpdateRepository
 
-	| testReponame |
+	| testReponame cp |
 	
 	testReponame := 'test.acl'.
 	self repository repoFilename: testReponame.
 	" Modify the check point "
-	self repository checkPoint isValidIpAddress: '8.8.8.8'.
+	cp := self repository checkPoint.
+	cp validationSettings allowedIPAddresses: Array empty.
+	cp isValidIpAddress: '8.8.8.8'.
 	self assert: (self repository stats machineFailCountsAt: '8.8.8.8') = 1.
 
 	" Now explicitly update the repository "
