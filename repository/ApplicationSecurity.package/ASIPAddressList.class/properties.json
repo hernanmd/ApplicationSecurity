@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "ASNamedEntity",
+	"category" : "ApplicationSecurity-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"allowedIPAddresses",
+		"deniedIPAddresses"
+	],
+	"name" : "ASIPAddressList",
+	"type" : "normal"
+}

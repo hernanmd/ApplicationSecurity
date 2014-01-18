@@ -13,7 +13,8 @@
 		"passwordExpirationCount",
 		"allowedMachines",
 		"legalMachines",
-		"checkPoint"
+		"checkPoint",
+		"ipAddressList"
 	],
 	"name" : "ASValidationSettings",
 	"type" : "normal"

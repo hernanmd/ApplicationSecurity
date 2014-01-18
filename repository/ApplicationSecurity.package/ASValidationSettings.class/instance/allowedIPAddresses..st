@@ -1,3 +1,4 @@
 accessing-machine validation
-allowedIPAddresses: anObject
-	allowedMachines := anObject
+allowedIPAddresses: aCollection
+
+	self ipAddressList allowedIPAddresses: aCollection
