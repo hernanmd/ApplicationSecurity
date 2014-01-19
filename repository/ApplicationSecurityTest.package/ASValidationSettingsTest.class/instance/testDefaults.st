@@ -17,6 +17,4 @@ testDefaults
 
 	self assert: (ASValidationSettings defaultPasswordExpirationCount isKindOf: SmallInteger).
 
-	self assert: (ASValidationSettings defaultValidIPAddresses isKindOf: Collection).
-	self deny: ASValidationSettings defaultValidIPAddresses isEmpty.
 
