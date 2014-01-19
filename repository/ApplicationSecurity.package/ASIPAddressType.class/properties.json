@@ -4,17 +4,10 @@
 	"category" : "ApplicationSecurity-Network",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"IPAddressTypeA",
-		"IPAddressTypeB",
-		"IPAddressTypeC",
-		"IPAddressTypeD",
-		"IPAddressTypeE"
-	],
+	"classvars" : [ ],
 	"instvars" : [
-		"deniedIPAddresses",
-		"addressTypes"
+		"range"
 	],
-	"name" : "ASIPAddressList",
+	"name" : "ASIPAddressType",
 	"type" : "normal"
 }

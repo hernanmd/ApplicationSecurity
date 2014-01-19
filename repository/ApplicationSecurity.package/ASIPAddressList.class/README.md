@@ -1,4 +1,4 @@
-For IPv4 addresses
+For representing IPv4 addresses. This class is not intended to be used for doing subnetting (scaling, allocation, etc.)
 
 ASIPAddressList new denyClassA.
 ASIPAddressList new 
