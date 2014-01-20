@@ -9,7 +9,11 @@
 		"IPAddressTypeB",
 		"IPAddressTypeC",
 		"IPAddressTypeD",
-		"IPAddressTypeE"
+		"IPAddressTypeE",
+		"IPPrivateAddressTypeA",
+		"IPPrivateAddressTypeAPIPA",
+		"IPPrivateAddressTypeB",
+		"IPPrivateAddressTypeC"
 	],
 	"instvars" : [
 		"deniedIPAddresses",

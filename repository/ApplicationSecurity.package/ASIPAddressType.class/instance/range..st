@@ -1,3 +1,4 @@
 accessing
-range: anObject
-	range := anObject
+range: anAssociation
+
+	range := anAssociation
