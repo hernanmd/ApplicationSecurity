@@ -12,6 +12,6 @@
 		"ipClassD",
 		"ipClassE"
 	],
-	"name" : "ASIPAddressTypeTest",
+	"name" : "ASIPAddressClassTest",
 	"type" : "normal"
 }
