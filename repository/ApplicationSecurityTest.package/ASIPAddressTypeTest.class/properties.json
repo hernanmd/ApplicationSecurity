@@ -6,8 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"ipAddressList"
+		"ipClassA",
+		"ipClassB",
+		"ipClassC",
+		"ipClassD",
+		"ipClassE"
 	],
-	"name" : "ASIPAddressListTest",
+	"name" : "ASIPAddressTypeTest",
 	"type" : "normal"
 }
