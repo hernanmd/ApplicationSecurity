@@ -8,6 +8,6 @@
 	"instvars" : [
 		"range"
 	],
-	"name" : "ASIPAddressType",
+	"name" : "ASIPAddressClass",
 	"type" : "normal"
 }
