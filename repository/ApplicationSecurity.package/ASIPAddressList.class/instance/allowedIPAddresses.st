@@ -4,4 +4,4 @@ allowedIPAddresses
 
 	^ self deniedIPAddresses isEmpty 
 		ifTrue: [ { '*' } ]
-		ifFalse: [ self allIPAddressesBut: self deniedIPAddresses ].
+		ifFalse: [ Array empty ].
