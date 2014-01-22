@@ -10,5 +10,10 @@ baseline10: spec
 		specForGrease: spec;
 		specForNacl: spec.
         spec package: 'ApplicationSecurity'		with: [ spec requires: #('Grease' 'NacI') ].
-        spec package: 'ApplicationSecurityTest'	with: [ spec requires: 'ApplicationSecurity' ] ]
+        spec package: 'ApplicationSecurityTest'	with: [ spec requires: 'ApplicationSecurity' ].
+	
+	spec
+		group: 'default' 	with: #('Core' 'Tests');
+		group: 'Core' 		with: #('ApplicationSecurity');
+		group: 'Tests' 		with: #('ApplicationSecurity' 'ApplicationSecurityTest') ]
         

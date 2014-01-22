@@ -13,8 +13,8 @@ version10: spec
             author: 'Hernan Morales Durand';
             timestamp: '2013-05-01'.
         spec
-		project: 'Grease'					with: #stable;
-		project: 'Nacl'						with: #stable;
-            package: 'ApplicationSecurity'		with: 'PureCSS-Iliad-HernanMoralesDurand.4';
-            package: 'ApplicationSecurity'		with: 'IC-HernanMoralesDurand.122' ].
+		project: 'Grease'						with: #stable;
+		project: 'Nacl'							with: #stable;
+            package: 'ApplicationSecurity'			with: 'ApplicationSecurity-HernanMoralesDurand.51';
+            package: 'ApplicationSecurityTest'		with: 'ApplicationSecurityTest-HernanMoralesDurand.20' ].
 
