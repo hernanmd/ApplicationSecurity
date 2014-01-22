@@ -1,5 +1,5 @@
 accessing
-defaultAddressTypes
+allAddressClasses
 	" See comment in #addressTypes "
 	
 	IPAddressTypeA isNil ifTrue: [ self class initialize ].
@@ -9,4 +9,8 @@ defaultAddressTypes
 		add: IPAddressTypeC;
 		add: IPAddressTypeD;
 		add: IPAddressTypeE;
+		add: IPPrivateAddressTypeA;
+		add: IPPrivateAddressTypeAPIPA;
+		add: IPPrivateAddressTypeB;
+		add: IPPrivateAddressTypeC;
 		yourself

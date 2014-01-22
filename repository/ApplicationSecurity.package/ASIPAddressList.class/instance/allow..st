@@ -1,4 +1,4 @@
-accessing
+filtering
 allow: anIpAddress 
 	" Given anIpAddress String, add it to the list of allowed addresses "
 	

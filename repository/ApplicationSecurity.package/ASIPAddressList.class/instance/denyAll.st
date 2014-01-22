@@ -1,8 +1,8 @@
-accessing
+filtering
 denyAll
 	" Deny all IP addresses "
 	
 	self deniedIPAddresses: { '*' }.
-	self addressTypes: Set new.
+	self deniedAddressClasses: Set new.
 	
 	

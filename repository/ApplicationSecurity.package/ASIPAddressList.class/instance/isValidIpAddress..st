@@ -4,7 +4,9 @@ isValidIpAddress: aString
 
 	(self allowedIPAddresses includes: '*')
 		ifTrue: [ ^ true  ].
+	(self deniedIPAddresses includes: '*')
+		ifTrue: [ ^ false  ].		
 	(self deniedIPAddresses includes: aString)
 		ifTrue: [ ^ false ].
-	(self includesIpAddress: aString)
+	(self isValidIpAddressInClasses: aString)
 		ifTrue: [ ^ true ]
