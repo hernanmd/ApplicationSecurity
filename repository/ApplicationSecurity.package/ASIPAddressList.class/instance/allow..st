@@ -1,5 +1,7 @@
 filtering
-allow: anIpAddress 
-	" Given anIpAddress String, add it to the list of allowed addresses "
+allow: ipAddress 
+	" Given ipAddress, add it to the list of allowed addresses "
 	
-	self deniedIPAddresses remove: anIpAddress ifAbsent: [  ].
+	self allowedIPAddresses add: ipAddress.
+	(self deniedIPAddresses includes: ipAddress)
+		ifTrue: [ self deniedIPAddresses remove: ipAddress ].

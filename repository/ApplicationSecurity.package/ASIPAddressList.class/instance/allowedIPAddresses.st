@@ -4,4 +4,4 @@ allowedIPAddresses
 
 	^ self deniedIPAddresses isEmpty 
 		ifTrue: [ { '*' } ]
-		ifFalse: [ Array empty ].
+		ifFalse: [ allowedIPAddresses ifNil: [ allowedIPAddresses := Set new ] ].

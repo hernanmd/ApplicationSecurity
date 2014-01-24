@@ -17,7 +17,8 @@
 	],
 	"instvars" : [
 		"deniedIPAddresses",
-		"deniedAddressClasses"
+		"deniedAddressClasses",
+		"allowedIPAddresses"
 	],
 	"name" : "ASIPAddressList",
 	"type" : "normal"
