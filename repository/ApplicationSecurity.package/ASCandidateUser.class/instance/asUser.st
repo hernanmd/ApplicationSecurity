@@ -5,6 +5,7 @@ asUser
 	^ self becomeForward: (ASUser new
 			entityName: self entityName;
 			password: self password;
+			salt: self salt;
 			groups: self groups;
 			eMail: self eMail;
 			address: self address;
