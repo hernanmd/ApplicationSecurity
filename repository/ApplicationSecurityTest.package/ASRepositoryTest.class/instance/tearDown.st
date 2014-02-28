@@ -4,4 +4,4 @@ tearDown
 	| fileRef |
 	
 	fileRef := self repository repoFilename asFileReference.
-	fileRef ensureDeleted.
+	fileRef ensureDelete.

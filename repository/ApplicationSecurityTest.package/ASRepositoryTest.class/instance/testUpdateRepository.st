@@ -15,4 +15,4 @@ testUpdateRepository
 	self repository updateRepository.
 	self assert: (DiskStore current isFile: testReponame asFileReference path).
 	self assert: (self repository isKindOf: ASRepository).
-	(FileSystem disk workingDirectory / testReponame) ensureDeleted.
+	(FileSystem disk workingDirectory / testReponame) ensureDelete.
