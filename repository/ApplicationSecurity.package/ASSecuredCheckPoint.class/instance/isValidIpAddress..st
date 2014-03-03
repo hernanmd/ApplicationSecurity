@@ -1,8 +1,8 @@
 authentication-testing
-isValidIpAddress: aStringIpAddress
+isValidIpAddress: ipAddressString
 	" Answer <true> if aStringIpAddress is not restricted for the receiver "
 	
-	aStringIpAddress isIpAddress ifFalse: [ ^ false ].
+	ipAddressString isIpAddress ifFalse: [ ^ false ].
 	self allowedIPAddresses = #('*') ifTrue: [ ^ true ].
-	^ (self allowedIPAddresses includesAny: {aStringIpAddress})
-		or: [ self stats increaseMachineFailCountFor: aStringIpAddress. false ].
+	^ (self allowedIPAddresses includesAny: { ipAddressString })
+		or: [ self stats increaseMachineFailCountFor: ipAddressString. false ].

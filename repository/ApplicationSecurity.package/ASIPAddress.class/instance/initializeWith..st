@@ -1,5 +1,5 @@
 initialize-release
-initializeFromIpString: aString
+initializeWith: aByteArray
 	" Private - Set the receiver's address as a ByteArray from aString "
 	
-	self address: (self byteArrayFromStringIp: aString)
+	self address: aByteArray

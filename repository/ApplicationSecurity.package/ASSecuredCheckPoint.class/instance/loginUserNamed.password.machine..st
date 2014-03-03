@@ -1,5 +1,5 @@
 authentication
-loginUserNamed: anUserString password: aPasswordString machine: anIPAddress
+loginUserNamed: anUserString password: aPasswordString machine: ipAddressString
 	" Answer an ASUser if all checks passes "
 	
 	| user username |
@@ -7,7 +7,7 @@ loginUserNamed: anUserString password: aPasswordString machine: anIPAddress
 	username := anUserString trimBoth.
 	self validateAuthSettingsLogin: username
 		password: aPasswordString trimBoth
-		machine: anIPAddress.
+		machine: ipAddressString.
 	user := self repository userByName: username.
 	self validatePassword: aPasswordString forUser: user.
 	^ user
