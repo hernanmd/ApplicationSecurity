@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "ApplicationSecurityTest-Network",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ipAddress"
+	],
+	"name" : "ASIPAddressTest",
+	"type" : "normal"
+}
