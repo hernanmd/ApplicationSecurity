@@ -15,6 +15,6 @@ version10: spec
         spec
 		project: 'Grease'						with: #stable;
 		project: 'Nacl'							with: #stable;
-            package: 'ApplicationSecurity'			with: 'ApplicationSecurity-HernanMoralesDurand.51';
-            package: 'ApplicationSecurityTest'		with: 'ApplicationSecurityTest-HernanMoralesDurand.20' ].
+            package: 'ApplicationSecurity'			with: 'ApplicationSecurity-HernanMoralesDurand.55';
+            package: 'ApplicationSecurityTest'		with: 'ApplicationSecurityTest-HernanMoralesDurand.24' ].
 
