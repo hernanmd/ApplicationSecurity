@@ -2,5 +2,5 @@ accessing
 addNewUser: anASUser
 	" Add anASUser to the receiver's users "
 	
-	self repositoryUsers add: anASUser.
+	self repositoryUsers add: (self encryptPasswordFor: anASUser).
 	self updateRepository.
