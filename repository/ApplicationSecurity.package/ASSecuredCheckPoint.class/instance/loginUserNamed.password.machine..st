@@ -4,7 +4,6 @@ loginUserNamed: anUserString password: aPasswordString machine: ipAddressString
 	
 	| user username |
 
-	self halt.
 	username := anUserString trimBoth.
 	self validateAuthSettingsLogin: username
 		password: aPasswordString trimBoth
