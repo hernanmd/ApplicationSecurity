@@ -13,6 +13,6 @@ testUpdateRepository
 
 	" Now explicitly update the repository "
 	self repository updateRepository.
-	self assert: (DiskStore current isFile: testReponame asFileReference path).
+	self assert: testReponame asFileReference isFile.
 	self assert: (self repository isKindOf: ASRepository).
 	(FileSystem disk workingDirectory / testReponame) ensureDelete.

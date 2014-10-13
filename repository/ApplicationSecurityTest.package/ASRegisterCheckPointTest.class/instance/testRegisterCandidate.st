@@ -1,6 +1,7 @@
 tests
 testRegisterCandidate
 
+	self checkPoint removeRepository.
 	candidate := self mockValidCandidate.
 	self assert: (candidate isKindOf: ASCandidateUser).	
 	self checkPoint registerCandidate: candidate.

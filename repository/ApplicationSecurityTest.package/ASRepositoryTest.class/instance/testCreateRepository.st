@@ -5,8 +5,8 @@ testCreateRepository
 	
 	fileRef := self repository repoFilename asFileReference.
 	fileRef ensureDelete.
-	self deny: (fileRef fileSystem isFile: fileRef path).
+	self deny: fileRef asFileReference isFile.
 	self repository createRepository.
-	self assert: (fileRef fileSystem isFile: fileRef path).
+	self assert: fileRef asFileReference isFile.
 
 	
