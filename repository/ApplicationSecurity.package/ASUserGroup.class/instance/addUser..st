@@ -1,5 +1,6 @@
 accessing
-addUser: anUser
-	" Agrega anUser al receptor "
+addUser: anASUser
+	" Add anASUser to the receiver "
 
-	self users addLast: anUser
+	self users addLast: anASUser.
+	anASUser addGroup: self.
