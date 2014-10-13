@@ -1,4 +1,4 @@
-accessing
+accessing-queries
 userByEmail: eMail
 	" See comments in repository method "
 	

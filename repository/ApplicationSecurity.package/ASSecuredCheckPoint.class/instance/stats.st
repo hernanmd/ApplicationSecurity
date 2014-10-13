@@ -1,4 +1,4 @@
-accessing
+accessing-statistics
 stats
 
 	^ stats

@@ -11,7 +11,6 @@ createCandidate: options
 		eMail: registrationOptions eMail;
 		institute: registrationOptions institute;
 		researchGroup: registrationOptions researchGroup;
-		registrationDate: Date today;
 		registrationId: self registrationId;
 		ipAddress: registrationOptions ipAddress;
 		yourself.
