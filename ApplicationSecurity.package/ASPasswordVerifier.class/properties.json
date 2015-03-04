@@ -1,0 +1,15 @@
+{
+	"category" : "ApplicationSecurity-Password",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"storedSalt",
+		"storedFinalPassword" ],
+	"name" : "ASPasswordVerifier",
+	"pools" : [
+		 ],
+	"super" : "ASPasswordObject",
+	"type" : "normal" }

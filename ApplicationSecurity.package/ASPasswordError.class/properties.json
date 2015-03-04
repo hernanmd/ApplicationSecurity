@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurity-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "hfm 3/9/2008 13:20",
+	"instvars" : [
+		 ],
+	"name" : "ASPasswordError",
+	"pools" : [
+		 ],
+	"super" : "ASSecurityError",
+	"type" : "normal" }

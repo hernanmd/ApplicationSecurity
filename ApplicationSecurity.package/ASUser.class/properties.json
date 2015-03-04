@@ -1,0 +1,23 @@
+{
+	"category" : "ApplicationSecurity-UserModel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"eMail",
+		"address",
+		"phone",
+		"firstname",
+		"lastname",
+		"institute",
+		"researchGroup",
+		"ipAddress",
+		"registrationDate",
+		"username" ],
+	"name" : "ASUser",
+	"pools" : [
+		 ],
+	"super" : "ASGroupableEntity",
+	"type" : "normal" }

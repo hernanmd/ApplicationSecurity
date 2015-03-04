@@ -1,0 +1,24 @@
+{
+	"category" : "ApplicationSecurity-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"IPAddressTypeA",
+		"IPAddressTypeB",
+		"IPAddressTypeC",
+		"IPAddressTypeD",
+		"IPAddressTypeE",
+		"IPPrivateAddressTypeA",
+		"IPPrivateAddressTypeAPIPA",
+		"IPPrivateAddressTypeB",
+		"IPPrivateAddressTypeC" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"deniedIPAddresses",
+		"deniedAddressClasses",
+		"allowedIPAddresses" ],
+	"name" : "ASIPAddressList",
+	"pools" : [
+		 ],
+	"super" : "ASNamedEntity",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+defaults
+defaultCheckPointClass
+
+	^ ASDeployCheckPoint

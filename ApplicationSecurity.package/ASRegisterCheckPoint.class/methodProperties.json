@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addCandidate:" : "HernanMoralesDurand 10/13/2014 17:20",
+		"addNewUser:" : "HernanMoralesDurand 10/13/2014 17:22",
+		"canRegister:" : "HernanMoralesDurand 12/9/2013 09:18",
+		"createCandidate:" : "HernanMoralesDurand 10/13/2014 17:37",
+		"createRegistrationOptionsFrom:" : "HernanMoralesDurand 12/6/2013 01:44",
+		"handleUserExists:" : "HernanMoralesDurand 10/13/2014 17:21",
+		"isValidPendingRegistrationId:" : "HernanMoralesDurand 12/21/2013 16:53",
+		"registerCandidate:" : "HernanMoralesDurand 12/21/2013 16:42",
+		"registerCandidateAsUser:" : "HernanMoralesDurand 12/24/2013 16:40",
+		"registration" : "HernanMoralesDurand 12/21/2013 16:05",
+		"registration:" : "HernanMoralesDurand 12/21/2013 15:13",
+		"registrationId" : "HernanMoralesDurand 12/21/2013 15:14",
+		"userByRegistrationId:" : "HernanMoralesDurand 12/22/2013 03:16",
+		"validateCandidate:" : "HernanMoralesDurand 10/13/2014 17:21",
+		"wantsToWriteLog" : "HernanMoralesDurand 11/18/2013 16:01" } }

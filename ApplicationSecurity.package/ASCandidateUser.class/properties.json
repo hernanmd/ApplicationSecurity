@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurity-UserModel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"registrationId" ],
+	"name" : "ASCandidateUser",
+	"pools" : [
+		 ],
+	"super" : "ASUser",
+	"type" : "normal" }

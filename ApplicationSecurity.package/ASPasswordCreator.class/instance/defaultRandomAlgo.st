@@ -1,0 +1,4 @@
+private
+defaultRandomAlgo
+
+	^ UUID new

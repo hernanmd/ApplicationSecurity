@@ -1,0 +1,15 @@
+{
+	"category" : "ApplicationSecurity-Password",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"password",
+		"hasher" ],
+	"name" : "ASPasswordObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

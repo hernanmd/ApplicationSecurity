@@ -1,0 +1,4 @@
+defaults
+defaultMaxUsernameChars
+
+	^ 20

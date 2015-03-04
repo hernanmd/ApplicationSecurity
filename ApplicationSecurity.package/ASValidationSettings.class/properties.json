@@ -1,0 +1,22 @@
+{
+	"category" : "ApplicationSecurity-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"maxUsernameCharacters",
+		"maxPasswordCharacters",
+		"allowedUsernameCharacters",
+		"allowedPasswordCharacters",
+		"passwordExpirationCount",
+		"allowedMachines",
+		"legalMachines",
+		"checkPoint",
+		"ipAddressList" ],
+	"name" : "ASValidationSettings",
+	"pools" : [
+		 ],
+	"super" : "ASNamedEntity",
+	"type" : "normal" }

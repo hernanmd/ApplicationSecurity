@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurity-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "hfm 3/19/2008 18:31",
+	"instvars" : [
+		 ],
+	"name" : "ASMaxGlobalFailCountError",
+	"pools" : [
+		 ],
+	"super" : "ASSecurityError",
+	"type" : "normal" }

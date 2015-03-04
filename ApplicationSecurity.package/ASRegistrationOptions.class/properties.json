@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurity-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"options" ],
+	"name" : "ASRegistrationOptions",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurity-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ASEntityNotFound",
+	"pools" : [
+		 ],
+	"super" : "ASSecurityError",
+	"type" : "normal" }

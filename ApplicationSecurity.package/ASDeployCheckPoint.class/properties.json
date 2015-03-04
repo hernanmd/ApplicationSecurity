@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurity-CheckPoint",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ASDeployCheckPoint",
+	"pools" : [
+		 ],
+	"super" : "ASSecuredCheckPoint",
+	"type" : "normal" }

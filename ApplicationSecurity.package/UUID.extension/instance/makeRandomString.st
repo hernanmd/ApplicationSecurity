@@ -1,0 +1,4 @@
+*applicationSecurity
+makeRandomString
+
+	^ self asString

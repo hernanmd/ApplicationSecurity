@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurity-CheckPoint",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"validationSettings" ],
+	"name" : "ASCheckPoint",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

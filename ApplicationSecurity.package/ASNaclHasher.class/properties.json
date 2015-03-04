@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurity-Password",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ASNaclHasher",
+	"pools" : [
+		 ],
+	"super" : "ASHasher",
+	"type" : "normal" }

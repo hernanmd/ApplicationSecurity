@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurity-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "hfm 1/16/2009 00:55",
+	"instvars" : [
+		"entityName" ],
+	"name" : "ASNamedEntity",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

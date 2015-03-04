@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurity-UserModel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"contents" ],
+	"name" : "ASRole",
+	"pools" : [
+		 ],
+	"super" : "ASNamedEntity",
+	"type" : "normal" }

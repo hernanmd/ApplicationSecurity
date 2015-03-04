@@ -1,0 +1,17 @@
+{
+	"category" : "ApplicationSecurity-CheckPoint",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"machineFailCounts",
+		"userFailCounts",
+		"globalFailCount",
+		"checkPoint" ],
+	"name" : "ASCheckPointStats",
+	"pools" : [
+		 ],
+	"super" : "ASNamedEntity",
+	"type" : "normal" }
