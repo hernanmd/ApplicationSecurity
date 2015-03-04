@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "HernanMoralesDurand 1/21/2014 02:13",
+		"testIncludesIpAddress" : "HernanMoralesDurand 1/21/2014 00:59",
+		"testLowerAddressAsInteger" : "HernanMoralesDurand 1/21/2014 12:56",
+		"testRange" : "HernanMoralesDurand 1/21/2014 02:13",
+		"testUpperAddressAsInteger" : "HernanMoralesDurand 1/21/2014 12:55" } }

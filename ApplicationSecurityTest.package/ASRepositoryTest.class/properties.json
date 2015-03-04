@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurityTest-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"repository" ],
+	"name" : "ASRepositoryTest",
+	"pools" : [
+		 ],
+	"super" : "ASTest",
+	"type" : "normal" }

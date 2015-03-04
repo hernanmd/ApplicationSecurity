@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"mockInvalidCandidate" : "HernanMoralesDurand 12/9/2013 09:31",
+		"mockValidCandidate" : "HernanMoralesDurand 12/22/2013 03:12",
+		"registrationData" : "HernanMoralesDurand 12/6/2013 01:30",
+		"setUp" : "HernanMoralesDurand 12/6/2013 01:33",
+		"testCanRegister" : "HernanMoralesDurand 12/9/2013 09:36",
+		"testCreateCandidate" : "HernanMoralesDurand 12/6/2013 16:36",
+		"testCreateRegistrationOptionsFrom" : "HernanMoralesDurand 12/9/2013 09:38",
+		"testRegisterCandidate" : "HernanMoralesDurand 10/13/2014 18:11",
+		"testRegisterCandidateAsUser" : "HernanMoralesDurand 10/13/2014 18:10",
+		"testRegistration" : "HernanMoralesDurand 12/22/2013 03:23",
+		"testRegistrationId" : "HernanMoralesDurand 12/22/2013 03:21" } }

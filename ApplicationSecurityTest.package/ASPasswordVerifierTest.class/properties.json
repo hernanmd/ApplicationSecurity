@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurityTest-Password",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"verifier" ],
+	"name" : "ASPasswordVerifierTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

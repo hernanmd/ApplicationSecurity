@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurityTest-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"settings" ],
+	"name" : "ASValidationSettingsTest",
+	"pools" : [
+		 ],
+	"super" : "ASTest",
+	"type" : "normal" }

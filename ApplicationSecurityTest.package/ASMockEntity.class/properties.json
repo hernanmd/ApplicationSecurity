@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurityTest-UserModel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ASMockEntity",
+	"pools" : [
+		 ],
+	"super" : "ASNamedEntity",
+	"type" : "normal" }

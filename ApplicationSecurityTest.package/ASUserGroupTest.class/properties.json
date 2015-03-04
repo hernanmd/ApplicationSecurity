@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurityTest-UserModel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"group" ],
+	"name" : "ASUserGroupTest",
+	"pools" : [
+		 ],
+	"super" : "ASTest",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurityTest-Password",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"saltCreator" ],
+	"name" : "ASPasswordCreatorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

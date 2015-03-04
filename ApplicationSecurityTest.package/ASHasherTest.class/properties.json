@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurityTest-Password",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"hasher" ],
+	"name" : "ASHasherTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

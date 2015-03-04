@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "HernanMoralesDurand 11/18/2013 18:08",
+		"settings" : "HernanMoralesDurand 11/18/2013 18:08",
+		"settings:" : "HernanMoralesDurand 11/18/2013 18:08",
+		"testAllowedIPAddresses" : "HernanMoralesDurand 1/19/2014 12:27",
+		"testAllowedPasswordCharacters" : "HernanMoralesDurand 11/18/2013 18:16",
+		"testAllowedUsernameCharacters" : "HernanMoralesDurand 11/18/2013 18:17",
+		"testCheckPoint" : "HernanMoralesDurand 11/18/2013 18:20",
+		"testDaysFromCreationDate" : "HernanMoralesDurand 11/18/2013 18:23",
+		"testDefaults" : "HernanMoralesDurand 1/19/2014 12:24",
+		"testForCheckPoint" : "HernanMoralesDurand 11/18/2013 18:14",
+		"testIpAddressList" : "HernanMoralesDurand 1/19/2014 12:29",
+		"testLimits" : "HernanMoralesDurand 11/18/2013 18:33",
+		"testPasswordExpirationCount" : "HernanMoralesDurand 11/18/2013 19:49",
+		"testPasswordExpiredFor" : "HernanMoralesDurand 10/13/2014 17:52",
+		"testRegisterIfValid" : "HernanMoralesDurand 12/6/2013 02:54",
+		"testRegistrationIsValid" : "HernanMoralesDurand 1/18/2014 15:26" } }

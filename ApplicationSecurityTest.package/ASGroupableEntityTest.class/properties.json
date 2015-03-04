@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurityTest-UserModel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"groupable" ],
+	"name" : "ASGroupableEntityTest",
+	"pools" : [
+		 ],
+	"super" : "ASTest",
+	"type" : "normal" }

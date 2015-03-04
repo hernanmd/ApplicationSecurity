@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurityTest-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"entity" ],
+	"name" : "ASNamedEntityTest",
+	"pools" : [
+		 ],
+	"super" : "ASTest",
+	"type" : "normal" }

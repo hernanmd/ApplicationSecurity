@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurityTest-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"ipAddress" ],
+	"name" : "ASIPAddressTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

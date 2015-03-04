@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurityTest-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ASTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

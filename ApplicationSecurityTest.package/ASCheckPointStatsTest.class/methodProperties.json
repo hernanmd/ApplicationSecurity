@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"cpStats" : "HernanMoralesDurand 11/18/2013 21:49",
+		"cpStats:" : "HernanMoralesDurand 11/18/2013 21:49",
+		"setUp" : "HernanMoralesDurand 11/18/2013 21:49",
+		"testCheckPoint" : "HernanMoralesDurand 11/18/2013 21:50",
+		"testGlobalFailCount" : "HernanMoralesDurand 11/18/2013 21:52",
+		"testIncreaseGlobalFailCount" : "HernanMoralesDurand 11/18/2013 22:11",
+		"testIncreaseMachineFailCountFor" : "HernanMoralesDurand 11/18/2013 22:18",
+		"testIncreaseUserFailCountFor" : "HernanMoralesDurand 11/18/2013 22:20",
+		"testMachineFailCounts" : "HernanMoralesDurand 11/18/2013 21:59",
+		"testReset" : "HernanMoralesDurand 11/18/2013 22:09",
+		"testUserFailCounts" : "HernanMoralesDurand 11/18/2013 21:53",
+		"testValidationSettings" : "HernanMoralesDurand 11/18/2013 21:58" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "ApplicationSecurityTest-CheckPoint",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"candidate" ],
+	"name" : "ASRegisterCheckPointTest",
+	"pools" : [
+		 ],
+	"super" : "ASCheckPointTest",
+	"type" : "normal" }
