@@ -1,4 +1,4 @@
-accessing
+accessing - repository
 updateRepository
 	" Private - Serialize the receiver's data "
 

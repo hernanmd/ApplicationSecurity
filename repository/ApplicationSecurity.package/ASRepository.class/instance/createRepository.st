@@ -1,4 +1,4 @@
-accessing
+accessing - repository
 createRepository
 	" Private - Create repository on persistent storage if not exists "
 
