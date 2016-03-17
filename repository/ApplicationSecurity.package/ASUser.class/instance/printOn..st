@@ -2,7 +2,9 @@ printing
 printOn: aStream
 	" Private - See superimplementor's comment "
 	
-	super printOn: aStream.
 	aStream 
+		nextPutAll: self class name;
 		space;
-		nextPutAll: '(User)'
+		nextPut: $(;
+		nextPutAll: self username;
+		nextPut: $)
