@@ -1,4 +1,4 @@
-tests-accessing
+testing
 testCheckPoint
 
 	self repository checkPoint: ASTestCheckPoint new.

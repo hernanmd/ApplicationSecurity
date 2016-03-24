@@ -1,4 +1,4 @@
-tests-accessing
+testing
 testRemoveAllUsers
 
 	| realUser |

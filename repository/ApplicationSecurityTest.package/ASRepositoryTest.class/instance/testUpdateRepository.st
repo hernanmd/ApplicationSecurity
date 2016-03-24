@@ -1,4 +1,4 @@
-tests-accessing
+testing
 testUpdateRepository
 
 	| testReponame cp |

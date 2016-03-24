@@ -1,4 +1,4 @@
-tests-accessing
+testing
 testIsEmpty
 
 	self assert: (self repository isKindOf: ASRepository).
