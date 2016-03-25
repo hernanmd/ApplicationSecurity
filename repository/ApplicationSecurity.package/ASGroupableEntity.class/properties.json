@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "HernanMoralesDurand 10/13/2014 19:40",
+	"commentStamp" : "HernanMoralesDurand 3/25/2016 17:22",
 	"super" : "ASNamedEntity",
-	"category" : "ApplicationSecurity-UserModel",
+	"category" : "ApplicationSecurity-Subjects",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "HernanMoralesDurand 2/2/2016 08:11",
+	"commentStamp" : "HernanMoralesDurand 3/25/2016 15:25",
 	"super" : "ASGroupableEntity",
-	"category" : "ApplicationSecurity-UserModel",
+	"category" : "ApplicationSecurity-Subjects",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
@@ -15,7 +15,8 @@
 		"researchGroup",
 		"ipAddress",
 		"registrationDate",
-		"username"
+		"username",
+		"logins"
 	],
 	"name" : "ASUser",
 	"type" : "normal"

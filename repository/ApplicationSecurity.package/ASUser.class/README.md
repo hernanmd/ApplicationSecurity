@@ -9,3 +9,4 @@ eMail:				<String>
 address:				<String>
 registrationDate		<Date>
 ipAddress			<String>		Current IP address of user
+logins				<Collection>	Successful logins

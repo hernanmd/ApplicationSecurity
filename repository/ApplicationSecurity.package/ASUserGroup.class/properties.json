@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "ASGroupableEntity",
-	"category" : "ApplicationSecurity-UserModel",
+	"category" : "ApplicationSecurity-Subjects",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
