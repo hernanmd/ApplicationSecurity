@@ -9,7 +9,7 @@ baseline01: spec
 				spec
 					className: #ConfigurationOfNacl;
 					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo40/main/' ].
+					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ].
 		spec 
 			package: 'ApplicationSecurity' with: [
 				spec requires: #('Nacl' ). ];
