@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "ASHasher",
+	"super" : "ASPasswordHasher",
 	"category" : "ApplicationSecurity-Password",
 	"classinstvars" : [ ],
 	"pools" : [ ],

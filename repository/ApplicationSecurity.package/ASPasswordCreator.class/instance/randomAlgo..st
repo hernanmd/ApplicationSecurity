@@ -1,3 +1,5 @@
 accessing-private
-randomAlgo: anObject
-	randomAlgo := anObject
+randomAlgo: aRandomGenerator
+	" Answer the receiver's <RandomGenerator> "
+	
+	randomAlgo := aRandomGenerator

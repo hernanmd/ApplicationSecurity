@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"super" : "ASPasswordHasher",
 	"category" : "ApplicationSecurity-Password",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ASGreaseHasher",
+	"name" : "ASPBKDF2Hasher",
 	"type" : "normal"
 }

@@ -1,3 +1,5 @@
 accessing
-plainTextPassword: anObject
-	password := anObject
+plainTextPassword: aString
+	" Set aString as receiver's current password "
+
+	password := aString
