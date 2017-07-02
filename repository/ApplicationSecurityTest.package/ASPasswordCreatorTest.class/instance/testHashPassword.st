@@ -12,3 +12,9 @@ testHashPassword
 		plainTextPassword: 'testPassword'.
 	self assert: (self saltCreator hashPassword isKindOf: String).
 	self assert: (self saltCreator hashPassword = '82f8809f42d911d1bd5199021d69d15ea91d1fad').
+	
+	self saltCreator 
+		hasher: ASPBKDF2Hasher new;
+		plainTextPassword: 'testPassword'.
+	self assert: (self saltCreator hashPassword isKindOf: String).
+	self assert: (self saltCreator hashPassword = '9131aee64ffdd10725b25dd358d90cd8')
