@@ -1,4 +1,4 @@
-tests-accessing
+testing
 testDefaultAdministrator
 
 	| admin |

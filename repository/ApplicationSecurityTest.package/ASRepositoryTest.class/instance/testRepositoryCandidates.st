@@ -1,4 +1,4 @@
-tests-accessing
+testing
 testRepositoryCandidates
 
 	self assert: self repository repositoryCandidates isEmpty.
