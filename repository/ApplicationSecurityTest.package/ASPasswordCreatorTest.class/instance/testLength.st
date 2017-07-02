@@ -1,4 +1,4 @@
-testing
+tests-accessing
 testLength
 
 	self assert: (self saltCreator length isKindOf: SmallInteger).

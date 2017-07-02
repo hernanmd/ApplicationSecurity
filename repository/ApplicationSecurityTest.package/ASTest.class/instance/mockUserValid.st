@@ -1,8 +1,8 @@
-accessing
+testing
 mockUserValid
 
 	^ ASCandidateUser new
 		entityName: 'alphabetic name';
-		username: self mockValidUsername;
+		username: 'alpha';
 		password: 'alphanumeric123';
 		yourself.

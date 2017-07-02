@@ -1,6 +1,21 @@
 tests-accessing
 testHashSaltString
 
-	self saltCreator hashSaltString.
-	self assert: (self saltCreator hashedSalt isKindOf: String).
-	self deny: self saltCreator hashedSalt isEmpty
+	| hashedSalt |
+	hashedSalt := self saltCreator 
+		hasher: ASNaclHasher new;	
+		hashSaltString.
+	self assert: (hashedSalt isKindOf: String).
+	self deny: hashedSalt isEmpty.
+
+	self saltCreator 
+		hasher: ASGreaseHasher new;
+		hashSaltString.
+	self assert: (hashedSalt isKindOf: String).
+	self deny: hashedSalt isEmpty.
+	
+	self saltCreator 
+		hasher: ASPBKDF2Hasher new;
+		hashSaltString.
+	self assert: (hashedSalt isKindOf: String).
+	self deny: hashedSalt isEmpty.
