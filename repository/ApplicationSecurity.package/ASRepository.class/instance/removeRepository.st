@@ -1,4 +1,4 @@
-accessing
+accessing - repository
 removeRepository
 	" Private - Remove repository on persistent storage if exists "
 

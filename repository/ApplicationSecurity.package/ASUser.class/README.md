@@ -3,9 +3,10 @@ ASUser = Application Security User. Use this class if you do not have Person or 
 firstname 			<String>		Real name
 lastname 			<String>		Real surname
 password :			<String>		Crypted password
-person : 			<Person>		Associated Person class instance if exists
-groups : 			<Collection>	Groups where the user belongs
+person : 				<Person>	Associated Person class instance if exists
+groups : 				<Collection>	Groups where the user belongs
 eMail:				<String>
-address:			<String>
-registrationDate	<Date>
+address:				<String>
+registrationDate		<Date>
 ipAddress			<String>		Current IP address of user
+logins				<Collection>	Successful logins

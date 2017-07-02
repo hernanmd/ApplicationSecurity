@@ -1,3 +1,5 @@
+A groupable entity is an active entity which can do things. Subclasses are suitable to be grouped
+
 Example
 
 | userGroup1 userGroup2 |

@@ -1,0 +1,4 @@
+converting
+asUser
+
+	^ self

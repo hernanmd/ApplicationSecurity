@@ -1,4 +1,4 @@
-accessing
+accessing - adding
 addNewAdministrator: anASUser
 	" Add anASUser to the receiver's administrators "
 	
