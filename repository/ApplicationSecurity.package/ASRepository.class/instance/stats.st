@@ -1,4 +1,4 @@
-queries
+accessing
 stats
 	" Answer an ASCheckPointStats with the receiver's statistics "
 	

@@ -1,4 +1,4 @@
-accessing - repository
+accessing
 updateRepositoryStats
 	" Private - Serialize the receiver's statistics data "
 	

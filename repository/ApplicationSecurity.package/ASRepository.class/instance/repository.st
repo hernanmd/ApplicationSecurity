@@ -1,4 +1,4 @@
-accessing - repository
+accessing
 repository
 	" Answer the receiver's current repository "
 

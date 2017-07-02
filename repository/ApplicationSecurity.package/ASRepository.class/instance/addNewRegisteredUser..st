@@ -1,4 +1,4 @@
-accessing - adding
+accessing
 addNewRegisteredUser: anASUser
 	" Add anASUser to the receiver's users "
 	

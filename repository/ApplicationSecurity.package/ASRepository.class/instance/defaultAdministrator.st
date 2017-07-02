@@ -1,7 +1,6 @@
 accessing
 defaultAdministrator
-	" Answer an <ASUser> for administrative purposes "
-	
+
 	| saltAssoc |
 	
 	saltAssoc := (ASPasswordCreator new plainTextPassword: self defaultAdminPassword) salt.

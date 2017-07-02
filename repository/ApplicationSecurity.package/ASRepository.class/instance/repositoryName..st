@@ -1,3 +1,3 @@
-accessing - repository
+accessing
 repositoryName: anObject
 	repositoryName := anObject

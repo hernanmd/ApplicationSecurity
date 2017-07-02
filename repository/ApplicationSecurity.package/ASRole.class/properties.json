@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "HernanMoralesDurand 2/2/2016 08:11",
+	"commentStamp" : "<historical>",
 	"super" : "ASNamedEntity",
-	"category" : "ApplicationSecurity-ACM-RoleMAC",
+	"category" : "ApplicationSecurity-UserModel",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

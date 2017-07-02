@@ -1,6 +1,6 @@
 accessing
 encryptPasswordFor: anASUser
-	" Salt s password String for anASUser. Answer anASUser with password salted "
+	" Salt passwordString for anASUser. Answer anASUser with password salted "
 	| saltAssoc |
 	
 	saltAssoc := (ASPasswordCreator new plainTextPassword: anASUser password) salt.

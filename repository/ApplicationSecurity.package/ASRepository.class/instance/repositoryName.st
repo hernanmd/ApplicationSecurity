@@ -1,4 +1,3 @@
-accessing - repository
+accessing
 repositoryName
 	^ repositoryName
-		ifNil: [ repositoryName := 'defaultRepository' ]

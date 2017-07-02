@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HernanMoralesDurand 3/6/2016 18:13",
+	"commentStamp" : "<historical>",
 	"super" : "Object",
 	"category" : "ApplicationSecurity-Core",
 	"classinstvars" : [ ],
@@ -9,8 +9,7 @@
 		"repository",
 		"repositoryName",
 		"repoFilename",
-		"checkPoint",
-		"useDefaultAdmin"
+		"checkPoint"
 	],
 	"name" : "ASRepository",
 	"type" : "normal"

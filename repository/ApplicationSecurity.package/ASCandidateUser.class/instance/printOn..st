@@ -1,8 +1,8 @@
 printing
-printOn: aStream
+printOn: aStream 
 	" Private - See superimplementor's comment "
 	
-	super printOn: aStream.
 	aStream 
+		nextPutAll: self entityName;
 		space;
-		nextPutAll: '(User)'
+		nextPutAll: '(Candidate)'

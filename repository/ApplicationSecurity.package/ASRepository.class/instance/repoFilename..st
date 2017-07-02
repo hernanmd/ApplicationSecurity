@@ -1,3 +1,3 @@
-accessing - repository
+accessing
 repoFilename: anObject
 	^ repoFilename := anObject

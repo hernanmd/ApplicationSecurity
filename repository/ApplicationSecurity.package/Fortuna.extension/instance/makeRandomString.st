@@ -2,4 +2,4 @@
 makeRandomString
 	" See comment in ASSaltCreator makeRandomString "
 
-	^ (self nextBytes: 18) asString
+	^ ((self setKey: (1 to: SmallInteger maxVal)) nextBytes: 36) hex

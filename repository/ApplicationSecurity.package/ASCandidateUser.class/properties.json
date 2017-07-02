@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "ASUser",
-	"category" : "ApplicationSecurity-Subjects",
+	"category" : "ApplicationSecurity-UserModel",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
