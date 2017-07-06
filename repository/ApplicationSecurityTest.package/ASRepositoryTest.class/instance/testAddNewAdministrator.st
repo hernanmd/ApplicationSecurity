@@ -10,4 +10,4 @@ testAddNewAdministrator
 	self assert: adminsRepo isEmpty.
 	adminsRepo addNewAdministrator: self mockUserValid.
 	self assert: (adminsRepo repositoryAdministrators first isKindOf: ASUser).
-	self assert: (adminsRepo repositoryAdministrators first username = 'alpha').
+	self assert: adminsRepo repositoryAdministrators first username equals: 'alpha'.

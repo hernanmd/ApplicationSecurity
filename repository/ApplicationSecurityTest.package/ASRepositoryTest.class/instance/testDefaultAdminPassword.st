@@ -1,4 +1,4 @@
 testing
 testDefaultAdminPassword
 
-	self assert: self repository defaultAdminPassword = 'Administrator'.
+	self assert: self repository defaultAdminPassword equals: 'Administrator'.

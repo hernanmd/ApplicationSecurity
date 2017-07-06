@@ -8,4 +8,4 @@ testAddNewRegisteredUser
 	self deny: (self repository repositoryCandidates includes: self mockUserValid).
 	self assert: self repository repositoryUsers notEmpty.
 
-	self assert: self repository repositoryUsers anyOne registrationDate = Date today.
+	self assert: self repository repositoryUsers anyOne registrationDate equals: Date today.

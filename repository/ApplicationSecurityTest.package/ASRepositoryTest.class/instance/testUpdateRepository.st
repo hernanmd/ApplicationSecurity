@@ -9,7 +9,7 @@ testUpdateRepository
 	cp := self repository checkPoint.
 	cp validationSettings ipAddressList denyAll.
 	cp isValidIpAddress: '8.8.8.8'.
-	self assert: (self repository stats machineFailCountsAt: '8.8.8.8') = 1.
+	self assert: (self repository stats machineFailCountsAt: '8.8.8.8') equals: 1.
 
 	" Now explicitly update the repository "
 	self repository updateRepository.
