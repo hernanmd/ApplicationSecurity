@@ -1,4 +1,6 @@
 accessing - repository
 repositoryName
+	" Answer a <String> with the receiver's repository name "
+
 	^ repositoryName
-		ifNil: [ repositoryName := 'defaultRepository' ]
+		ifNil: [ repositoryName := self defaultRepositoryName ]

@@ -4,4 +4,4 @@ repositoryAdministrators
 
 	^ self useDefaultAdmin 
 		ifTrue: [ self repositoryAdminCreate: (OrderedCollection with: self defaultAdministrator) ]
-		ifFalse: [ self repositoryAdminCreate: OrderedCollection new ]
+		ifFalse: [ self repositoryAdmins ]

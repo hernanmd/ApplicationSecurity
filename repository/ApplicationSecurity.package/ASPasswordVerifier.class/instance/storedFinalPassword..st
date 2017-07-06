@@ -1,3 +1,4 @@
 accessing
-storedFinalPassword: anObject
-	storedFinalPassword := anObject
+storedFinalPassword: aString
+
+	storedFinalPassword := aString

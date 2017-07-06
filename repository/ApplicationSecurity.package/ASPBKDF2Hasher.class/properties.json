@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "HernanMoralesDurand 7/6/2017 00:10",
 	"super" : "ASPasswordHasher",
 	"category" : "ApplicationSecurity-Password",
 	"classinstvars" : [ ],
