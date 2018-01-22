@@ -7,7 +7,7 @@ version17: spec
 		spec description: 'version 1.7'.
 		spec author: 'HernanMoralesDurand'.
 		spec timestamp: '2/5/2016 15:20'.
-		spec project: 'Nacl' with: '1.1'.
+		spec project: 'Nacl' with: '1.4'.
 		spec 
 			package: 'ApplicationSecurity' with: 'ApplicationSecurity-HernanMoralesDurand.62';
 			package: 'ApplicationSecurityTest' with: 'ApplicationSecurityTest-HernanMoralesDurand.30'. ].

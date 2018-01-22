@@ -8,7 +8,7 @@ version18: spec
 		spec author: 'HernanMoralesDurand'.
 		spec timestamp: '1/22/2018 14:37'.
 		spec 
-			project: 'Nacl' with: '1.1';
+			project: 'Nacl' with: '1.4';
 			project: 'PBKDF2' with: '0.0.6'.
 		spec 
 			package: 'ApplicationSecurity' with: 'ApplicationSecurity-HernanMoralesDurand.73';
