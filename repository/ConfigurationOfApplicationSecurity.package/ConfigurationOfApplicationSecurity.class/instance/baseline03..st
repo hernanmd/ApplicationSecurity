@@ -10,7 +10,7 @@ baseline03: spec
 				spec
 					className: #ConfigurationOfNacl;
 					versionString: '1.4';
-					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ];
+					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo60/main/' ];
 			project: 'PBKDF2' with: [
 				spec
 					className: #ConfigurationOfPBKDF2;
