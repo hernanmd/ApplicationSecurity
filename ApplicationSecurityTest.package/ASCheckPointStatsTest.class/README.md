@@ -1,1 +1,0 @@
-An ASCheckPointStatsTest is a test class for testing the behavior of ASCheckPointStats

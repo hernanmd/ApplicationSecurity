@@ -1,4 +1,0 @@
-*applicationSecurity
-makeRandomString
-
-	^ self asString

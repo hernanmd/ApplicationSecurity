@@ -1,4 +1,0 @@
-defaults
-maxUsernameCount
-
-	^ 20

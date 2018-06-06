@@ -1,3 +1,0 @@
-accessing
-ipAddress
-	^ ipAddress

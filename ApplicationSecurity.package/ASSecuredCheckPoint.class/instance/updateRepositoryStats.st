@@ -1,4 +1,0 @@
-accessing-statistics
-updateRepositoryStats
-
-	self repository updateRepositoryStats

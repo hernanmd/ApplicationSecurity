@@ -1,4 +1,0 @@
-defaults
-defaultMaxUsernameChars
-
-	^ 20

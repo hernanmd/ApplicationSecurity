@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "HernanMoralesDurand 12/4/2013 01:13",
-		"testIsValidIpAddress" : "HernanMoralesDurand 12/22/2013 02:01",
-		"testIsValidPeer" : "HernanMoralesDurand 12/22/2013 02:01",
-		"testLoginUserNamedPasswordMachine" : "HernanMoralesDurand 12/4/2013 01:11" } }

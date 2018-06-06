@@ -1,3 +1,0 @@
-accessing
-storedSalt
-	^ storedSalt

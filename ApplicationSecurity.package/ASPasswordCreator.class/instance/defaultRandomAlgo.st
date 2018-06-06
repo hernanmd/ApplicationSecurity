@@ -1,4 +1,0 @@
-private
-defaultRandomAlgo
-
-	^ UUID new

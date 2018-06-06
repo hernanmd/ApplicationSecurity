@@ -1,1 +1,0 @@
-Lanzada cuando se alcanzo el limite maximo de intentos de ingreso permitidos en el sistema globalmente (para todos los usuarios)

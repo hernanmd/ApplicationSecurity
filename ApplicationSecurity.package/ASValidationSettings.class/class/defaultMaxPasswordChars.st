@@ -1,4 +1,0 @@
-defaults
-defaultMaxPasswordChars
-
-	^ 14
