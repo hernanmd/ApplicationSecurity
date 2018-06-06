@@ -11,5 +11,5 @@ baseline: spec
 						spec repository: 'http://smalltalkhub.com/mc/UdoSchneider/PBKDF2/main' ].
 
 			spec package: 'ApplicationSecurity'.
-			spec group: 'Core' with: #('ApplicationSecurity').
+			spec group: 'Core' with: #('ApplicationSecurity' 'PBKDF2-Core').
 			spec group: 'default' with: #('Core') ]
