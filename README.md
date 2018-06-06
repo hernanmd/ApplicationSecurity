@@ -7,21 +7,10 @@ ApplicationSecurity implements a Smalltalk domain-independent security model whi
 ## Stable version
 
 ```smalltalk
-Metacello new 
-  smalltalkhubUser: 'hernan' project: 'ApplicationSecurity';  
-  configuration: 'ApplicationSecurity'; 
-  version: #stable;  
-  load.
-```
-
-## Development version
-
-```smalltalk
-Metacello new	
-  smalltalkhubUser: 'hernan' project: 'ApplicationSecurity';	
-  configuration: 'ApplicationSecurity';	
-  version: #development;	
-  load.
+Metacello new
+    baseline: 'ApplicationSecurity';
+    repository: 'github://hernanmd/ApplicationSecurity/repository';
+    load.
 ```
 
 # License
