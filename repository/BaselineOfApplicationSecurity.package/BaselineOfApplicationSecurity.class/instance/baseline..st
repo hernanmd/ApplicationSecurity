@@ -5,11 +5,13 @@ baseline: spec
 		for: #common
 		do: [ 
 				spec
-					package: 'PBKDF2-Core'
+					project: 'PBKDF2'
 					with: [ 
-						spec file:'PBKDF2-Core-UdoSchneider.1'.
-						spec repository: 'http://smalltalkhub.com/mc/UdoSchneider/PBKDF2/main' ].
+						spec 
+							className: 'ConfigurationOfPBKDF2';
+	                	version: #stable;
+							repository: 'http://smalltalkhub.com/mc/UdoSchneider/PBKDF2/main' ].
 
 			spec package: 'ApplicationSecurity'.
-			spec group: 'Core' with: #('ApplicationSecurity' 'PBKDF2-Core').
+			spec group: 'Core' with: #('ApplicationSecurity' 'PBKDF2').
 			spec group: 'default' with: #('Core') ]
