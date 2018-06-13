@@ -1,2 +1,2 @@
-Security check point for development scenario.
+Security checkpoint for development scenarios.
 Verifications are ignored.

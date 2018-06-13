@@ -1,4 +1,4 @@
-A secured check point implements methods for securing an application.
+A secured checkpoint implements methods for securing an application.
 
 legalMachines 		<Set>	
 allowedMachines 	<Set>	Peers allowed to enter a system
