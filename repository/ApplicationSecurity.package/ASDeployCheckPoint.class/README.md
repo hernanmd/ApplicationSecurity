@@ -1,1 +1,1 @@
-Verificador de acceso para un escenario de producción. Este objeto tiene activadas todas las verificaciones.
+Verify access for a production scenario. This object has all verifications activated.

@@ -1,7 +1,10 @@
 SystemOrganization addCategory: #ApplicationSecurity!
+SystemOrganization addCategory: 'ApplicationSecurity-ACM-Rights'!
+SystemOrganization addCategory: 'ApplicationSecurity-ACM-RoleMAC'!
+SystemOrganization addCategory: 'ApplicationSecurity-Accounting'!
 SystemOrganization addCategory: 'ApplicationSecurity-CheckPoint'!
 SystemOrganization addCategory: 'ApplicationSecurity-Core'!
 SystemOrganization addCategory: 'ApplicationSecurity-Exceptions'!
 SystemOrganization addCategory: 'ApplicationSecurity-Network'!
 SystemOrganization addCategory: 'ApplicationSecurity-Password'!
-SystemOrganization addCategory: 'ApplicationSecurity-UserModel'!
+SystemOrganization addCategory: 'ApplicationSecurity-Subjects'!
