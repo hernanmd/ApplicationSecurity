@@ -4,12 +4,12 @@ baseline: spec
 	spec
 		for: #common
 		do: [ 
-				spec
+"				spec
 					baseline: 'Grease' 
 					with: [ 
 						spec 
 							loads: #('Core'); 
-							repository: 'github://GsDevKit/Grease:master/repository' ].
+							repository: 'github://GsDevKit/Grease:master/repository' ]."
 				spec
 					project: 'PBKDF2'
 					with: [ 
