@@ -30,5 +30,5 @@ baseline: spec
 			spec package: 'ApplicationSecurity-Test' with: [ spec requires: #('ApplicationSecurity') ].			
 			spec group: 'Core' with: #('ApplicationSecurity' 'PBKDF2' 'Nacl').
 			spec group: 'default' with: #('Core').
-			spec group: 'Tests' with: #('Core' 'ApplicationSecurityTest').
+			spec group: 'Tests' with: #('Core' 'ApplicationSecurity-Test').
 			spec group: 'All' with: #('Tests') ]
