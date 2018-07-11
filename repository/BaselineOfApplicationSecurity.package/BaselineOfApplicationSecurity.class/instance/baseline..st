@@ -5,6 +5,12 @@ baseline: spec
 		for: #common
 		do: [ 
 				spec
+					baseline: 'Grease' 
+					with: [ 
+						spec 
+							loads: #('Core'); 
+							repository: 'github://GsDevKit/Grease:master/repository' ].
+				spec
 					project: 'PBKDF2'
 					with: [ 
 						spec 
@@ -21,5 +27,5 @@ baseline: spec
 							repository: 'http://smalltalkhub.com/mc/tonyg/Crypto-Nacl/main' ].
 
 			spec package: 'ApplicationSecurity'.
-			spec group: 'Core' with: #('ApplicationSecurity' 'PBKDF2' 'Nacl').
+			spec group: 'Core' with: #('ApplicationSecurity' 'PBKDF2' 'Nacl' 'Grease').
 			spec group: 'default' with: #('Core') ]
