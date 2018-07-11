@@ -1,6 +1,6 @@
 testing
 isValidIpAddress: aString 
-	" Answer <true> if aStringIpAddress is not restricted for the receiver "
+	" Answer <true> if aStringIpAddress is not restricted for the receiver. Defaults to <false> "
 
 	(self allowedIPAddresses includes: '*')
 		ifTrue: [ ^ true  ].
@@ -9,4 +9,5 @@ isValidIpAddress: aString
 	(self deniedIPAddresses includes: aString)
 		ifTrue: [ ^ false ].
 	(self isValidIpAddressInClasses: aString)
-		ifTrue: [ ^ true ]
+		ifTrue: [ ^ true ].
+	^ false

@@ -2,7 +2,7 @@ filtering
 denyAll
 	" Deny all IP addresses "
 	
-	self deniedIPAddresses: { '*' }.
+	self deniedIPAddresses: (Array with: '*').
 	self deniedAddressClasses: Set new.
 	
 	

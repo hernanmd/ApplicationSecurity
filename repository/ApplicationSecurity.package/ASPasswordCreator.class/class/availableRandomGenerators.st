@@ -1,8 +1,10 @@
 utilities
 availableRandomGenerators
 	" Answer a <Collection> with current system random generators class names "
-	^ { #UUID .
+	
+	^ (Array withAll: #(
+		#UUID .
 		#Random .
 		#SecureRandom .
 		#Fortuna 
-		} select: [ : c | Smalltalk hasClassNamed: c ]
+		)) select: [ : c | Smalltalk hasClassNamed: c ]

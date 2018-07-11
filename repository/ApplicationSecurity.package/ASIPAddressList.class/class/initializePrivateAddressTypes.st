@@ -1,4 +1,4 @@
-initialize-release
+class-initialization
 initializePrivateAddressTypes
 
 	IPPrivateAddressTypeA := ASIPAddressClass new entityName: 'A'; range: '10.0.0.0' -> '10.255.255.255'; yourself. 

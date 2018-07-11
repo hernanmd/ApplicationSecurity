@@ -4,5 +4,5 @@ isValidIpAddress: ipAddressString
 	
 	ipAddressString isIpAddress ifFalse: [ ^ false ].
 	self allowedIPAddresses = #('*') ifTrue: [ ^ true ].
-	^ (self allowedIPAddresses includesAny: { ipAddressString })
+	^ (self allowedIPAddresses includesAny: (Array with: ipAddressString))
 		or: [ self stats increaseMachineFailCountFor: ipAddressString. false ].

@@ -1,7 +1,6 @@
-initialize-release
+class-initialization
 initialize
 	" Private - See superclass implementor "
-	
-	super initialize.
+
 	self initializeAddressTypes.
-	self initializePrivateAddressTypes.
+	self initializePrivateAddressTypes

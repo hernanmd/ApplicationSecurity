@@ -1,3 +1,4 @@
 accessing
-deniedIPAddresses: anObject
-	deniedIPAddresses := anObject
+deniedIPAddresses: aCollection
+
+	deniedIPAddresses := aCollection
