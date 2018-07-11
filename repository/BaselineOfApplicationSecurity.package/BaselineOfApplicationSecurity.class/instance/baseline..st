@@ -27,5 +27,5 @@ baseline: spec
 							repository: 'http://smalltalkhub.com/mc/tonyg/Crypto-Nacl/main' ].
 
 			spec package: 'ApplicationSecurity'.
-			spec group: 'Core' with: #('ApplicationSecurity' 'PBKDF2' 'Nacl' 'Grease').
+			spec group: 'Core' with: #('ApplicationSecurity' 'PBKDF2' 'Nacl').
 			spec group: 'default' with: #('Core') ]
