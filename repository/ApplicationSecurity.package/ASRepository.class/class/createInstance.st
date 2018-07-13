@@ -1,0 +1,4 @@
+accessing
+createInstance
+
+	^ self basicNew

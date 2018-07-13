@@ -4,7 +4,9 @@
 	"category" : "ApplicationSecurity-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"UniqueInstance"
+	],
 	"instvars" : [
 		"repository",
 		"repositoryName",

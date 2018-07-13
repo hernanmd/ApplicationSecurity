@@ -3,4 +3,4 @@ repository
 	" Answer the receiver's current repository "
 
 	^ repository
-		ifNil: [ repository := ASRepository new checkPoint: self; yourself ]
+		ifNil: [ repository := ASRepository uniqueInstance checkPoint: self; yourself ]
