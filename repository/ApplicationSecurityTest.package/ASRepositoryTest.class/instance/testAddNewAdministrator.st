@@ -7,7 +7,7 @@ testAddNewAdministrator
 		useDefaultAdmin: false;
 		repositoryAdministrators;
 		yourself.
-	self assert: adminsRepo isEmpty.
+	self assert: adminsRepo repositoryAdministrators isEmpty.
 	adminsRepo addNewAdministrator: self mockUserValid.
 	self assert: (adminsRepo repositoryAdministrators first isKindOf: ASUser).
 	self assert: adminsRepo repositoryAdministrators first username equals: 'alpha'.
